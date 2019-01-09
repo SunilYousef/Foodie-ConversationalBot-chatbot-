@@ -229,6 +229,42 @@ class Zomato:
         return r#a = ast.literal_eval(r)
 
 
+    def restaurant_search_with_options(self, query="", latitude="", longitude="", cuisines="", option={'sort':'rating', 'order':'dsc'}, limit=5):
+        """
+        Takes either query, latitude and longitude or cuisine as input.
+        Returns a list of Restaurant IDs.
+        examples for options:
+            options = {'mincft':1000, 'maxcft':2000, 'sort':'rating', 'order':'dsc'}
+        all options:
+            category		1 for Delivery, 2 for Dineout, 3 for Nightlife. 		int		Optional
+							Skip this to get all results	
+			start			The starting location within results from which 		int		Optional
+							the results should be fetched. Default is 0	
+			count			The number of results to fetch. Default is 10, 			int		Optional	
+							max is 50	
+			mincft			Filter restaurants where average cost for two is 				Optional
+							less than this value										
+			maxcft			Filter restaurants where average cost for two is 				Optional
+							above this value		
+			minrating		Filter restaurants with rating less than this 					Optional
+							value		
+			maxrating		Filter restaurants with rating above this value					Optional
+			cc				Set 1 to check if credit cards are accepted else 0		int		Optional
+			bar				Set 1 to check if restaurant has a bar else 0			int		Optional
+			veg				Set 1 to check if restaurant is pure veg else 0			int		Optional
+			open			Set 'now' to check if restaurant is open				string	Optional
+			buffet			Set 1 to check if restaurant has a buffet else 0		int		Optional
+ 			happyhour		Set 1 to check if restaurant has happy hours else 0		int		Optional
+        """
+        cuisines = "%2C".join(cuisines.split(","))
+        if str(limit).isalpha() == True:
+            raise ValueError('LimitNotInteger')
+        headers = {'Accept': 'application/json', 'user-key': self.user_key}
+        r = (requests.get(base_url + "search?q=" + str(query) + "&count=" + str(limit) + "&lat=" + str(latitude) + "&lon=" + str(longitude) + "&cuisines=" + str(cuisines), 
+                          params=option, headers=headers).content).decode("utf-8")
+        return r#a = ast.literal_eval(r)
+
+
     def get_location(self, query="", limit=5):
         """
         Takes either query, latitude and longitude or cuisine as input.

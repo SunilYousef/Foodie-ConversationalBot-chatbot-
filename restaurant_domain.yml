@@ -32,6 +32,10 @@ templates:
       buttons:
       - title: "Chinese"
         payload: "Chinese"
+      - title: "Mexican"
+        payload: "Mexican"
+      - title: "American"
+        payload: "American"
       - title: "Italian"
         payload: "Italian"
       - title: "South Indian"

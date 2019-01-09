@@ -16,7 +16,7 @@ if __name__ == '__main__':
 	model_path = './models/dialogue'
 	
 	featurizer = MaxHistoryTrackerFeaturizer(BinarySingleStateFeaturizer(), max_history=5)
-	agent = Agent('restaurant_domain.yml', policies = [MemoizationPolicy(max_history = 4), KerasPolicy(featurizer)])
+	agent = Agent('restaurant_domain.yml', policies = [MemoizationPolicy(max_history = 5), KerasPolicy(featurizer)])
 	
 	agent.train(
 			training_data_file,

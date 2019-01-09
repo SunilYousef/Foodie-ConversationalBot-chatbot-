@@ -39,6 +39,10 @@ templates:
   - buttons:
     - payload: Chinese
       title: Chinese
+    - payload: Mexican
+      title: Mexican
+    - payload: American
+      title: American
     - payload: Italian
       title: Italian
     - payload: South Indian

@@ -25,6 +25,248 @@
           "veggie",
           "vegg"
         ]
+      },
+      {
+        "value": "Aurangabad",
+        "synonyms": [
+          "Aurgangabad",
+          "Sambhaji Nagar",
+          "aurangabad"
+        ]
+      },
+      {
+        "value": "Amritsar",
+        "synonyms": [
+          "City of Golden Temple",
+          "amritsar"
+        ]
+      },
+      {
+        "value": "Mumbai",
+        "synonyms": [
+          "City of seven Islands",
+          "Bombay",
+          "bombay",
+          "mumbai"
+        ]
+      },
+      {
+        "value": "Belgaum",
+        "synonyms": [
+          "Belagavi",
+          "belgaum"
+        ]
+      },
+      {
+        "value": "Bangalore",
+        "synonyms": [
+          "bangalore",
+          "Bengaluru",
+          "bengaluru",
+          "Garden City"
+        ]
+      },
+      {
+        "value": "Bhubaneswar",
+        "synonyms": [
+          "Temple City",
+          "Bhuvaneswar",
+          "bhuvaneswar",
+          "bhubaneswar"
+        ]
+      },
+      {
+        "value": "Kozhikode",
+        "synonyms": [
+          "Calicut",
+          "kozhikode",
+          "calicut"
+        ]
+      },
+      {
+        "value": "Kanpur",
+        "synonyms": [
+          "kanpur",
+          "Cawnpore",
+          "cawnpore"
+        ]
+      },
+      {
+        "value": "Hyderabad",
+        "synonyms": [
+          "Bangle City",
+          "hyderabad",
+          "Twin Cities",
+          "Secundarabad",
+          "Sikandarabad"
+        ]
+      },
+      {
+        "value": "Kolkata",
+        "synonyms": [
+          "Calcutta",
+          "calcutta",
+          "City of Palaces",
+          "kolkata"
+        ]
+      },
+      {
+        "value": "Mysore",
+        "synonyms": [
+          "mysuru",
+          "Mysuru",
+          "Sandal Wood City",
+          "mysore"
+        ]
+      },
+      {
+        "value": "Pondicherry",
+        "synonyms": [
+          "pondicherry",
+          "Puducherry",
+          "puducherry",
+          "Auroville",
+          "auroville",
+          "Pondichery",
+          "pondichery",
+          "City of Dawn"
+        ]
+      },
+      {
+        "value": "Visakhapatnam",
+        "synonyms": [
+          "visakhapatnam",
+          "Vizagapatnam",
+          "vizagapatnam",
+          "waltair",
+          "Waltair"
+        ]
+      },
+      {
+        "value": "Thiruvananthapuram",
+        "synonyms": [
+          "thiruvananthapuram",
+          "Trivandrum",
+          "trivandrum"
+        ]
+      },
+      {
+        "value": "Thrissur",
+        "synonyms": [
+          "thrissur",
+          "Trichur",
+          "trichur",
+          "Thiru Siva Peroor"
+        ]
+      },
+      {
+        "value": "Surat",
+        "synonyms": [
+          "surat",
+          "Diamond City"
+        ]
+      },
+      {
+        "value": "Kollam",
+        "synonyms": [
+          "Quilon",
+          "quilon",
+          "kollam"
+        ]
+      },
+      {
+        "value": "Pune",
+        "synonyms": [
+          "Poona",
+          "poona",
+          "pune"
+        ]
+      },
+      {
+        "value": "Kochi",
+        "synonyms": [
+          "kochi",
+          "Cochin",
+          "cochin"
+        ]
+      },
+      {
+        "value": "Guwahati",
+        "synonyms": [
+          "guwahati",
+          "gauhati",
+          "Gauhati"
+        ]
+      },
+      {
+        "value": "Indore",
+        "synonyms": [
+          "indore",
+          "Indhur",
+          "indhur"
+        ]
+      },
+      {
+        "value": "Jabalpur",
+        "synonyms": [
+          "jabalpur",
+          "Jubbulpore",
+          "jubbulpore"
+        ]
+      },
+      {
+        "value": "Jalandhar",
+        "synonyms": [
+          "jalandhar",
+          "Jullundur",
+          "jullundur"
+        ]
+      },
+      {
+        "value": "Jodhpur",
+        "synonyms": [
+          "jodhpur",
+          "Sun City"
+        ]
+      },
+      {
+        "value": "Jaipur",
+        "synonyms": [
+          "jaipur",
+          "Pink City"
+        ]
+      },
+      {
+        "value": "Chennai",
+        "synonyms": [
+          "chennai",
+          "Madras",
+          "madras"
+        ]
+      },
+      {
+        "value": "Mangalore",
+        "synonyms": [
+          "mangalore",
+          "Mangaluru",
+          "mangaluru"
+        ]
+      },
+      {
+        "value": "Nagpur",
+        "synonyms": [
+          "Orange City",
+          "nagpur"
+        ]
+      },
+      {
+        "value": "Goa",
+        "synonyms": [
+          "Panjim",
+          "Panaji",
+          "panjim",
+          "panaji"
+        ]
       }
     ],
     "lookup_tables": [

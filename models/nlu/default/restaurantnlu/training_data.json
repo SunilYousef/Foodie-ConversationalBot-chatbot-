@@ -947,7 +947,7 @@
           {
             "start": 38,
             "end": 46,
-            "value": "chinese ",
+            "value": "chinese",
             "entity": "cuisine"
           }
         ],
@@ -1357,12 +1357,6 @@
             "end": 25,
             "value": "20 members",
             "entity": "people"
-          },
-          {
-            "start": 7,
-            "end": 12,
-            "value": "team ",
-            "entity": "people"
           }
         ],
         "text": "for my team of 20 members"
@@ -1371,15 +1365,15 @@
         "intent": "restaurant_search",
         "entities": [
           {
-            "start": 14,
-            "end": 18,
-            "value": "300 ",
-            "entity": "price"
-          },
-          {
             "start": 36,
             "end": 39,
             "value": "700",
+            "entity": "price"
+          },
+          {
+            "start": 14,
+            "end": 17,
+            "value": "300",
             "entity": "price"
           }
         ],
@@ -1509,16 +1503,16 @@
         "intent": "restaurant_search",
         "entities": [
           {
-            "start": 14,
-            "end": 22,
-            "value": "chinese ",
-            "entity": "cuisine"
-          },
-          {
             "start": 34,
             "end": 40,
             "value": "cochin",
             "entity": "location"
+          },
+          {
+            "start": 14,
+            "end": 21,
+            "value": "chinese",
+            "entity": "cuisine"
           }
         ],
         "text": "are there any chinese cuisines in cochin"
@@ -1545,19 +1539,19 @@
         "intent": "restaurant_search",
         "entities": [
           {
-            "start": 23,
-            "end": 31,
-            "value": "Italian ",
-            "entity": "cuisine"
-          },
-          {
             "start": 42,
             "end": 48,
-            "value": "jammu ",
+            "value": "jammu",
             "entity": "location"
+          },
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Italian",
+            "entity": "cuisine"
           }
         ],
-        "text": "all right is there any Italian cuisine in jammu "
+        "text": "all right is there any Italian cuisine in jammu"
       },
       {
         "intent": "restaurant_search",
@@ -1570,8 +1564,8 @@
           },
           {
             "start": 25,
-            "end": 34,
-            "value": "american ",
+            "end": 33,
+            "value": "american",
             "entity": "cuisine"
           }
         ],

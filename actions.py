@@ -6,6 +6,7 @@ from rasa_core.actions.action import Action
 from rasa_core.events import SlotSet
 import zomatopy
 import json
+import re
 
 class ActionSearchRestaurants(Action):
 	def name(self):
@@ -16,7 +17,18 @@ class ActionSearchRestaurants(Action):
 		zomato = zomatopy.initialize_app(config)
 		loc = tracker.get_slot('location')
 		cuisine = tracker.get_slot('cuisine')
-		budget = tracker.get_slot('budget')
+		price = tracker.get_slot('price')
+		prices = re.findall(r'\d+', price)
+		print(prices[0], len(prices))
+		budget = 0
+		if len(prices) == 1:
+			if int(prices[0]) >= 700:
+			    budget = 3
+			else:
+			    budget = 1
+		else:
+			budget = 2
+		print(budget)
 		location_detail=zomato.get_location(loc, 1)
 		d1 = json.loads(location_detail)
 		lat=d1["location_suggestions"][0]["latitude"]

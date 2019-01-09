@@ -5,7 +5,7 @@ action_names:
 - utter_default
 - utter_ask_howcanhelp
 - utter_ask_location
-- utter_ask_budget
+- utter_ask_price
 - utter_ask_cuisine
 - action_restaurant
 actions:
@@ -14,7 +14,7 @@ actions:
 - utter_default
 - utter_ask_howcanhelp
 - utter_ask_location
-- utter_ask_budget
+- utter_ask_price
 - utter_ask_cuisine
 - actions.ActionSearchRestaurants
 config:
@@ -22,7 +22,7 @@ config:
 entities:
 - location
 - cuisine
-- budget
+- price
 intents:
 - greet
 - affirm
@@ -31,25 +31,16 @@ intents:
 - thankyou
 - restaurant_search
 slots:
-  budget:
-    initial_value: null
-    type: rasa_core.slots.TextSlot
   cuisine:
     initial_value: null
     type: rasa_core.slots.TextSlot
   location:
     initial_value: null
     type: rasa_core.slots.TextSlot
+  price:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
 templates:
-  utter_ask_budget:
-  - buttons:
-    - payload: Lesser than Rs. 300
-      title: Lesser than Rs. 300
-    - payload: Rs. 300 to 700
-      title: Rs. 300 to 700
-    - payload: More than 700
-      title: More than 700
-    text: What's the average budget for two people?
   utter_ask_cuisine:
   - buttons:
     - payload: Chinese
@@ -69,6 +60,15 @@ templates:
   - text: how can I help you?
   utter_ask_location:
   - text: In what location?
+  utter_ask_price:
+  - buttons:
+    - payload: Lesser than Rs. 300
+      title: Lesser than Rs. 300
+    - payload: Rs. 300 to 700
+      title: Rs. 300 to 700
+    - payload: More than 700
+      title: More than 700
+    text: What's the average budget for two people?
   utter_default:
   - text: default message
   utter_goodbye:

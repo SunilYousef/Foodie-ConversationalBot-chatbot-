@@ -272,7 +272,111 @@
     "lookup_tables": [
       {
         "name": "location",
-        "elements": [ "Ahmedabad", "Bangalore", "Chennai", "Delhi", "Hyderabad", "Kolkata", "Mumbai", "Pune", "Agra", "Ajmer", "Aligarh", "Amravati", "Amritsar", "Asansol", "Aurangabad", "Bareilly", "Belgaum", "Bhavnagar", "Bhiwandi", "Bhopal", "Bhubaneswar", "Bikaner", "Bokaro Steel City", "Chandigarh", "Coimbatore", "Cuttack", "Dehradun", "Dhanbad", "Durg Bhilai Nagar", "Durgapur", "Erode", "Faridabad", "Firozabad", "Ghaziabad", "Gorakhpur", "Gulbarga", "Guntur", "Gurgaon", "Guwahati‚ Gwalior", "Hubli Dharwad", "Indore", "Jabalpur", "Jaipur", "Jalandhar", "Jammu", "Jamnagar", "Jamshedpur", "Jhansi", "Jodhpur", "Kannur", "Kanpur", "Kakinada", "Kochi", "Kottayam", "Kolhapur", "Kollam", "Kota", "Kozhikode", "Kurnool", "Lucknow", "Ludhiana", "Madurai", "Malappuram", "Mathura", "Goa", "Mangalore", "Meerut", "Moradabad", "Mysore", "Nagpur", "Nanded", "Nashik", "Nellore", "Noida", "Palakkad", "Patna", "Pondicherry", "Prayagraj", "Raipur", "Rajkot", "Rajahmundry", "Ranchi", "Rourkela", "Salem", "Sangli", "Siliguri", "Solapur", "Srinagar", "Sultanpur", "Surat", "Thiruvananthapuram", "Thrissur", "Tiruchirappalli", "Tirunelveli", "Tiruppur", "Ujjain", "Bijapur", "Vadodara", "Varanasi", "Vasai Virar City", "Vijayawada", "Visakhapatnam", "Warangal" ]
+        "elements": [
+          "Ahmedabad",
+          "Bangalore",
+          "Chennai",
+          "Delhi",
+          "Hyderabad",
+          "Kolkata",
+          "Mumbai",
+          "Pune",
+          "Agra",
+          "Ajmer",
+          "Aligarh",
+          "Amravati",
+          "Amritsar",
+          "Asansol",
+          "Aurangabad",
+          "Bareilly",
+          "Belgaum",
+          "Bhavnagar",
+          "Bhiwandi",
+          "Bhopal",
+          "Bhubaneswar",
+          "Bikaner",
+          "Bokaro Steel City",
+          "Chandigarh",
+          "Coimbatore",
+          "Cuttack",
+          "Dehradun",
+          "Dhanbad",
+          "Durg Bhilai Nagar",
+          "Durgapur",
+          "Erode",
+          "Faridabad",
+          "Firozabad",
+          "Ghaziabad",
+          "Gorakhpur",
+          "Gulbarga",
+          "Guntur",
+          "Gurgaon",
+          "Guwahatiï¿½ Gwalior",
+          "Hubli Dharwad",
+          "Indore",
+          "Jabalpur",
+          "Jaipur",
+          "Jalandhar",
+          "Jammu",
+          "Jamnagar",
+          "Jamshedpur",
+          "Jhansi",
+          "Jodhpur",
+          "Kannur",
+          "Kanpur",
+          "Kakinada",
+          "Kochi",
+          "Kottayam",
+          "Kolhapur",
+          "Kollam",
+          "Kota",
+          "Kozhikode",
+          "Kurnool",
+          "Lucknow",
+          "Ludhiana",
+          "Madurai",
+          "Malappuram",
+          "Mathura",
+          "Goa",
+          "Mangalore",
+          "Meerut",
+          "Moradabad",
+          "Mysore",
+          "Nagpur",
+          "Nanded",
+          "Nashik",
+          "Nellore",
+          "Noida",
+          "Palakkad",
+          "Patna",
+          "Pondicherry",
+          "Prayagraj",
+          "Raipur",
+          "Rajkot",
+          "Rajahmundry",
+          "Ranchi",
+          "Rourkela",
+          "Salem",
+          "Sangli",
+          "Siliguri",
+          "Solapur",
+          "Srinagar",
+          "Sultanpur",
+          "Surat",
+          "Thiruvananthapuram",
+          "Thrissur",
+          "Tiruchirappalli",
+          "Tirunelveli",
+          "Tiruppur",
+          "Ujjain",
+          "Bijapur",
+          "Vadodara",
+          "Varanasi",
+          "Vasai Virar City",
+          "Vijayawada",
+          "Visakhapatnam",
+          "Warangal"
+        ]
       }
     ],
     "common_examples": [
@@ -973,6 +1077,222 @@
             "start": 3,
             "end": 7,
             "value": "pune",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Malappuram",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 13,
+            "value": "Malappuram",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Garden City",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 14,
+            "value": "Garden City",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Bombay",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "Bombay",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "at City of seven Islands",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 24,
+            "value": "City of seven Islands",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "at Temple City",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 14,
+            "value": "Temple City",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in calcutta",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "calcutta",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "at Auroville",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "value": "Auroville",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in waltair",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "waltair",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "at trivandrum",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 13,
+            "value": "trivandrum",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Diamond City",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 15,
+            "value": "Diamond City",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "at gauhati",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "gauhati",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "at indhur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "indhur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in jubbulpore",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 13,
+            "value": "jubbulpore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "at Jalandhar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "value": "Jalandhar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "at Madras",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "Madras",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "at Orange City",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 14,
+            "value": "Orange City",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Panjim",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "Panjim",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in panaji",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "panaji",
             "entity": "location"
           }
         ]

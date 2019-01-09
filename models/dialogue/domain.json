@@ -8,6 +8,8 @@
     "intent_restaurant_search",
     "entity_location",
     "entity_cuisine",
+    "entity_budget",
+    "slot_budget_0",
     "slot_cuisine_0",
     "slot_location_0",
     "prev_action_listen",
@@ -18,6 +20,7 @@
     "prev_utter_default",
     "prev_utter_ask_howcanhelp",
     "prev_utter_ask_location",
+    "prev_utter_ask_budget",
     "prev_utter_ask_cuisine",
     "prev_action_restaurant"
   ]

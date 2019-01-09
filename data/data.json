@@ -1653,9 +1653,9 @@
         "intent": "restaurant_search",
         "entities": [
           {
-            "start": 0,
+            "start": 1,
             "end": 4,
-            "value": ">700",
+            "value": "700",
             "entity": "price"
           }
         ]
@@ -1665,9 +1665,9 @@
         "intent": "restaurant_search",
         "entities": [
           {
-            "start": 0,
+            "start": 1,
             "end": 4,
-            "value": "<700",
+            "value": "700",
             "entity": "price"
           }
         ]
@@ -1677,9 +1677,9 @@
         "intent": "restaurant_search",
         "entities": [
           {
-            "start": 0,
+            "start": 1,
             "end": 4,
-            "value": "<300",
+            "value": "300",
             "entity": "price"
           }
         ]
@@ -1761,9 +1761,9 @@
         "intent": "restaurant_search",
         "entities": [
           {
-            "start": 2,
+            "start": 0,
             "end": 9,
-            "value": "persons",
+            "value": "3 persons",
             "entity": "people"
           }
         ]

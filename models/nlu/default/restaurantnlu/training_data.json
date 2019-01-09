@@ -1576,6 +1576,10 @@
           }
         ],
         "text": "lets see if there is any american restaurants at Firozabad"
+      },
+      {
+        "intent": "greet",
+        "text": "Hola"
       }
     ],
     "regex_features": [

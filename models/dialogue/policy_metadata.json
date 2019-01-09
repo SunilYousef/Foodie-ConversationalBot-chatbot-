@@ -2,9 +2,9 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "location",
         "cuisine",
-        "price"
+        "price",
+        "location"
       ]
     },
     "utter_goodbye": {

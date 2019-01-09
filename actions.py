@@ -43,8 +43,8 @@ class ActionSearchRestaurants(Action):
 			response= "no results"
 		else:
 			for restaurant in d['restaurants']:
-				response=response+ "Found "+ restaurant['restaurant']['name']+ " in "+ restaurant['restaurant']['location']['address']+"\n"
+				response=response+ "Found :- "+ restaurant['restaurant']['name']+ " in "+ restaurant['restaurant']['location']['address']+" has been rated "+ restaurant['restaurant']['user_rating']['aggregate_rating']+ "\n"
 		
-		dispatcher.utter_message("-----"+response)
+		dispatcher.utter_message("-----\n"+response)
 		return [SlotSet('location',loc)]
 

@@ -7,7 +7,6 @@ from rasa_core.events import SlotSet
 import zomatopy
 import json
 import re
-import sys
 
 class ActionSearchRestaurants(Action):
 	def name(self):
@@ -21,7 +20,7 @@ class ActionSearchRestaurants(Action):
 		price = tracker.get_slot('price')
 		prices = re.findall(r'\d+', price)
 		mincft = 0
-		maxcft = sys.maxsize
+		maxcft = 999999 #budget for two for more than this amount is insane
 		if len(prices) == 1:
 			if int(prices[0]) >= 700:
 			    mincft = 700
@@ -30,6 +29,7 @@ class ActionSearchRestaurants(Action):
 		else:
 			mincft = 300
 			maxcft = 700
+		#print(mincft, maxcft)
 		location_detail=zomato.get_location(loc, 1)
 		d1 = json.loads(location_detail)
 		lat=d1["location_suggestions"][0]["latitude"]

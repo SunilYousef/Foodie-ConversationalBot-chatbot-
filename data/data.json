@@ -113,6 +113,8 @@
           "bangalore",
           "Bengaluru",
           "bengaluru",
+          "bglr",
+          "Bglr",
           "Garden City"
         ]
       },
@@ -197,6 +199,8 @@
         "synonyms": [
           "thiruvananthapuram",
           "Trivandrum",
+          "tvm",
+          "Tvm",
           "trivandrum"
         ]
       },
@@ -307,6 +311,30 @@
         "synonyms": [
           "Orange City",
           "nagpur"
+        ]
+      },
+      {
+        "value": "durg bhilai nagar",
+        "synonyms": [
+          "durg",
+          "bhilai",
+          "Durg",
+          "Bhilai",
+          "Durg Bhilai Nagar",
+          "durg bhilai",
+          "Durg Bhilai"
+        ]
+      },
+      {
+        "value": "vasai virar city",
+        "synonyms": [
+          "vasai",
+          "virar",
+          "Virar",
+          "vasai virar",
+          "Vasai Virar",
+          "Vasai Virar City",
+          "Vasai"
         ]
       },
       {
@@ -491,13 +519,13 @@
         ]
       },
       {
-        "text": "i am looking for an indian spot called olaolaolaolaolaola",
+        "text": "i am looking for an south indian spot called olaolaolaolaolaola",
         "intent": "restaurant_search",
         "entities": [
           {
             "start": 20,
-            "end": 26,
-            "value": "indian",
+            "end": 32,
+            "value": "south indian",
             "entity": "cuisine"
           }
         ]
@@ -508,25 +536,25 @@
         "entities": []
       },
       {
-        "text": "anywhere in the west",
+        "text": "anywhere in the north delhi",
         "intent": "restaurant_search",
         "entities": [
           {
             "start": 16,
-            "end": 20,
-            "value": "west",
+            "end": 27,
+            "value": "Delhi",
             "entity": "location"
           }
         ]
       },
       {
-        "text": "anywhere near 18328",
+        "text": "anywhere near goa",
         "intent": "restaurant_search",
         "entities": [
           {
             "start": 14,
-            "end": 19,
-            "value": "18328",
+            "end": 17,
+            "value": "Goa",
             "entity": "location"
           }
         ]
@@ -544,13 +572,13 @@
         ]
       },
       {
-        "text": "I am looking a restaurant in 29432",
+        "text": "I am looking a restaurant in tvm",
         "intent": "restaurant_search",
         "entities": [
           {
             "start": 29,
             "end": 34,
-            "value": "29432",
+            "value": "Thiruvananthapuram",
             "entity": "location"
           }
         ]
@@ -574,7 +602,7 @@
           {
             "start": 0,
             "end": 12,
-            "value": "South Indian",
+            "value": "south indian",
             "entity": "cuisine"
           }
         ]
@@ -586,7 +614,7 @@
           {
             "start": 0,
             "end": 12,
-            "value": "North Indian",
+            "value": "north indian",
             "entity": "cuisine"
           }
         ]
@@ -598,7 +626,7 @@
           {
             "start": 0,
             "end": 7,
-            "value": "Italian",
+            "value": "italian",
             "entity": "cuisine"
           }
         ]
@@ -658,7 +686,7 @@
           {
             "start": 3,
             "end": 8,
-            "value": "delhi",
+            "value": "Delhi",
             "entity": "location"
           }
         ]
@@ -718,7 +746,7 @@
           {
             "start": 37,
             "end": 42,
-            "value": "delhi",
+            "value": "Delhi",
             "entity": "location"
           }
         ]
@@ -730,7 +758,7 @@
           {
             "start": 17,
             "end": 38,
-            "value": "mexican indian fusion",
+            "value": "mexican",
             "entity": "cuisine"
           }
         ]
@@ -830,7 +858,7 @@
           {
             "start": 38,
             "end": 42,
-            "value": "pune",
+            "value": "Pune",
             "entity": "location"
           }
         ]
@@ -848,7 +876,7 @@
           {
             "start": 38,
             "end": 49,
-            "value": "North Delhi",
+            "value": "Delhi",
             "entity": "location"
           }
         ]
@@ -872,7 +900,7 @@
           {
             "start": 3,
             "end": 12,
-            "value": "ahmedabad",
+            "value": "Ahmedabad",
             "entity": "location"
           }
         ]
@@ -896,7 +924,7 @@
           {
             "start": 3,
             "end": 12,
-            "value": "bangalore",
+            "value": "Bangalore",
             "entity": "location"
           }
         ]
@@ -920,7 +948,7 @@
           {
             "start": 3,
             "end": 10,
-            "value": "chennai",
+            "value": "Chennai",
             "entity": "location"
           }
         ]
@@ -944,7 +972,7 @@
           {
             "start": 3,
             "end": 12,
-            "value": "hyderabad",
+            "value": "Hyderabad",
             "entity": "location"
           }
         ]
@@ -968,7 +996,7 @@
           {
             "start": 3,
             "end": 10,
-            "value": "kolkata",
+            "value": "Kolkata",
             "entity": "location"
           }
         ]
@@ -992,7 +1020,7 @@
           {
             "start": 3,
             "end": 9,
-            "value": "mumbai",
+            "value": "Mumbai",
             "entity": "location"
           }
         ]
@@ -1016,7 +1044,7 @@
           {
             "start": 3,
             "end": 7,
-            "value": "pune",
+            "value": "Pune",
             "entity": "location"
           }
         ]
@@ -1040,7 +1068,7 @@
           {
             "start": 3,
             "end": 14,
-            "value": "Garden City",
+            "value": "Bangalore",
             "entity": "location"
           }
         ]
@@ -1052,7 +1080,7 @@
           {
             "start": 3,
             "end": 9,
-            "value": "Bombay",
+            "value": "Mumbai",
             "entity": "location"
           }
         ]
@@ -1064,7 +1092,7 @@
           {
             "start": 3,
             "end": 24,
-            "value": "City of seven Islands",
+            "value": "Mumbai",
             "entity": "location"
           }
         ]
@@ -1076,7 +1104,7 @@
           {
             "start": 3,
             "end": 14,
-            "value": "Temple City",
+            "value": "Bhubaneswar",
             "entity": "location"
           }
         ]
@@ -1088,7 +1116,7 @@
           {
             "start": 3,
             "end": 11,
-            "value": "calcutta",
+            "value": "Kolkata",
             "entity": "location"
           }
         ]
@@ -1100,7 +1128,7 @@
           {
             "start": 3,
             "end": 12,
-            "value": "Auroville",
+            "value": "Pondicherry",
             "entity": "location"
           }
         ]
@@ -1112,7 +1140,7 @@
           {
             "start": 3,
             "end": 10,
-            "value": "waltair",
+            "value": "Visakhapatnam",
             "entity": "location"
           }
         ]
@@ -1124,7 +1152,7 @@
           {
             "start": 3,
             "end": 13,
-            "value": "trivandrum",
+            "value": "Thiruvananthapuram",
             "entity": "location"
           }
         ]
@@ -1136,7 +1164,7 @@
           {
             "start": 3,
             "end": 15,
-            "value": "Diamond City",
+            "value": "Surat",
             "entity": "location"
           }
         ]
@@ -1148,7 +1176,7 @@
           {
             "start": 3,
             "end": 10,
-            "value": "gauhati",
+            "value": "Guwahati",
             "entity": "location"
           }
         ]
@@ -1160,7 +1188,7 @@
           {
             "start": 3,
             "end": 9,
-            "value": "indhur",
+            "value": "Indore",
             "entity": "location"
           }
         ]
@@ -1172,13 +1200,13 @@
           {
             "start": 3,
             "end": 13,
-            "value": "jubbulpore",
+            "value": "Jabalpur",
             "entity": "location"
           }
         ]
       },
       {
-        "text": "at Jalandhar",
+        "text": "at Jullundur",
         "intent": "restaurant_search",
         "entities": [
           {
@@ -1196,7 +1224,7 @@
           {
             "start": 3,
             "end": 9,
-            "value": "Madras",
+            "value": "Chennai",
             "entity": "location"
           }
         ]
@@ -1208,7 +1236,7 @@
           {
             "start": 3,
             "end": 14,
-            "value": "Orange City",
+            "value": "Nagpur",
             "entity": "location"
           }
         ]
@@ -1220,7 +1248,7 @@
           {
             "start": 3,
             "end": 9,
-            "value": "Panjim",
+            "value": "Goa",
             "entity": "location"
           }
         ]
@@ -1232,7 +1260,7 @@
           {
             "start": 3,
             "end": 9,
-            "value": "panaji",
+            "value": "Goa",
             "entity": "location"
           }
         ]
@@ -1244,7 +1272,7 @@
           {
             "start": 3,
             "end": 24,
-            "value": "City of seven Islands",
+            "value": "Mumbai",
             "entity": "location"
           }
         ]
@@ -1280,7 +1308,7 @@
           {
             "start": 41,
             "end": 48,
-            "value": "kolkata",
+            "value": "Kolkata",
             "entity": "location"
           }
         ]
@@ -1292,7 +1320,7 @@
           {
             "start": 61,
             "end": 71,
-            "value": "chandigarh",
+            "value": "Chandigarh",
             "entity": "location"
           },
           {
@@ -1322,7 +1350,7 @@
           {
             "start": 12,
             "end": 18,
-            "value": "chines",
+            "value": "chinese",
             "entity": "cuisine"
           }
         ]
@@ -1346,7 +1374,7 @@
           {
             "start": 8,
             "end": 13,
-            "value": "south",
+            "value": "south indian",
             "entity": "cuisine"
           }
         ]
@@ -1358,7 +1386,7 @@
           {
             "start": 12,
             "end": 17,
-            "value": "north",
+            "value": "north indian",
             "entity": "cuisine"
           }
         ]
@@ -1370,7 +1398,7 @@
           {
             "start": 0,
             "end": 4,
-            "value": "Ital",
+            "value": "italian",
             "entity": "cuisine"
           }
         ]
@@ -1394,7 +1422,7 @@
           {
             "start": 0,
             "end": 12,
-            "value": "North Indian",
+            "value": "north indian",
             "entity": "cuisine"
           }
         ]
@@ -1406,7 +1434,7 @@
           {
             "start": 0,
             "end": 11,
-            "value": "southindian",
+            "value": "south indian",
             "entity": "cuisine"
           }
         ]
@@ -1418,7 +1446,7 @@
           {
             "start": 0,
             "end": 11,
-            "value": "NorthIndian",
+            "value": "north indian",
             "entity": "cuisine"
           }
         ]
@@ -1430,7 +1458,7 @@
           {
             "start": 0,
             "end": 8,
-            "value": "American",
+            "value": "american",
             "entity": "cuisine"
           }
         ]
@@ -1466,7 +1494,7 @@
           {
             "start": 0,
             "end": 4,
-            "value": "ital",
+            "value": "italian",
             "entity": "cuisine"
           }
         ]
@@ -1490,7 +1518,7 @@
           {
             "start": 16,
             "end": 19,
-            "value": "300",
+            "value": "low",
             "entity": "price"
           }
         ]
@@ -1502,7 +1530,7 @@
           {
             "start": 4,
             "end": 14,
-            "value": "300 to 700",
+            "value": "mid",
             "entity": "price"
           }
         ]
@@ -1514,7 +1542,7 @@
           {
             "start": 10,
             "end": 13,
-            "value": "700",
+            "value": "high",
             "entity": "price"
           }
         ]
@@ -1526,7 +1554,7 @@
           {
             "start": 12,
             "end": 22,
-            "value": "300 to 700",
+            "value": "mid",
             "entity": "price"
           }
         ]
@@ -1538,7 +1566,7 @@
           {
             "start": 0,
             "end": 7,
-            "value": "300-700",
+            "value": "mid",
             "entity": "price"
           }
         ]
@@ -1548,21 +1576,21 @@
         "intent": "restaurant_search",
         "entities": [
           {
-            "start": 1,
+            "start": 0,
             "end": 4,
-            "value": "700",
+            "value": "high",
             "entity": "price"
           }
         ]
       },
       {
-        "text": "<700",
+        "text": "< 300",
         "intent": "restaurant_search",
         "entities": [
           {
-            "start": 1,
-            "end": 4,
-            "value": "700",
+            "start": 0,
+            "end": 5,
+            "value": "low",
             "entity": "price"
           }
         ]
@@ -1572,9 +1600,9 @@
         "intent": "restaurant_search",
         "entities": [
           {
-            "start": 1,
+            "start": 0,
             "end": 4,
-            "value": "300",
+            "value": "low",
             "entity": "price"
           }
         ]
@@ -1586,7 +1614,7 @@
           {
             "start": 8,
             "end": 18,
-            "value": "300 to 700",
+            "value": "mid",
             "entity": "price"
           }
         ]
@@ -1598,7 +1626,7 @@
           {
             "start": 8,
             "end": 15,
-            "value": "300-700",
+            "value": "mid",
             "entity": "price"
           }
         ]
@@ -1608,9 +1636,9 @@
         "intent": "restaurant_search",
         "entities": [
           {
-            "start": 14,
+            "start": 0,
             "end": 17,
-            "value": "300",
+            "value": "low",
             "entity": "price"
           }
         ]
@@ -1620,9 +1648,9 @@
         "intent": "restaurant_search",
         "entities": [
           {
-            "start": 14,
+            "start": 0,
             "end": 17,
-            "value": "700",
+            "value": "mid",
             "entity": "price"
           }
         ]
@@ -1632,15 +1660,9 @@
         "intent": "restaurant_search",
         "entities": [
           {
-            "start": 36,
+            "start": 0,
             "end": 39,
-            "value": "700",
-            "entity": "price"
-          },
-          {
-            "start": 14,
-            "end": 17,
-            "value": "300",
+            "value": "mid",
             "entity": "price"
           }
         ]
@@ -1787,7 +1809,7 @@
           {
             "start": 35,
             "end": 41,
-            "value": "kollam",
+            "value": "Kollam",
             "entity": "location"
           }
         ]
@@ -1799,7 +1821,7 @@
           {
             "start": 34,
             "end": 40,
-            "value": "cochin",
+            "value": "Kochi",
             "entity": "location"
           },
           {
@@ -1823,7 +1845,7 @@
           {
             "start": 43,
             "end": 46,
-            "value": "goa",
+            "value": "Goa",
             "entity": "location"
           }
         ]
@@ -1835,13 +1857,13 @@
           {
             "start": 42,
             "end": 48,
-            "value": "jammu",
+            "value": "Jammu",
             "entity": "location"
           },
           {
             "start": 23,
             "end": 30,
-            "value": "Italian",
+            "value": "italian",
             "entity": "cuisine"
           }
         ]
@@ -1876,13 +1898,13 @@
           {
             "start": 16,
             "end": 28,
-            "value": "south Indian",
+            "value": "south indian",
             "entity": "cuisine"
           },
           {
             "start": 41,
             "end": 50,
-            "value": "north goa",
+            "value": "Goa",
             "entity": "location"
           }
         ]
@@ -1894,20 +1916,20 @@
           {
             "start": 9,
             "end": 21,
-            "value": "north Indian",
+            "value": "north indian",
             "entity": "cuisine"
-          },
-          {
-            "start": 47,
-            "end": 50,
-            "value": "300",
-            "entity": "price"
           },
           {
             "start": 54,
             "end": 63,
-            "value": "bangalore",
+            "value": "Bangalore",
             "entity": "location"
+          },
+          {
+            "start": 34,
+            "end": 50,
+            "value": "low",
+            "entity": "price"
           }
         ]
       },
@@ -1924,19 +1946,19 @@
           {
             "start": 27,
             "end": 33,
-            "value": "madras",
+            "value": "Chennai",
             "entity": "location"
           },
           {
             "start": 60,
             "end": 70,
-            "value": "300 to 700",
+            "value": "mid",
             "entity": "price"
           }
         ]
       },
       {
-        "text": "please book a table for 4 in Coimbatore with the lowest price range possible for mexican food",
+        "text": "please book a table for 4 in Coimbatore within 300-700 price range serving mexican food",
         "intent": "restaurant_search",
         "entities": [
           {
@@ -1946,16 +1968,22 @@
             "entity": "people"
           },
           {
-            "start": 49,
-            "end": 55,
-            "value": "lowest",
+            "start": 47,
+            "end": 54,
+            "value": "mid",
             "entity": "price"
           },
           {
-            "start": 81,
-            "end": 88,
+            "start": 75,
+            "end": 82,
             "value": "mexican",
             "entity": "cuisine"
+          },
+          {
+            "start": 29,
+            "end": 39,
+            "value": "Coimbatore",
+            "entity": "location"
           }
         ]
       },
@@ -1966,7 +1994,7 @@
           {
             "start": 19,
             "end": 24,
-            "value": "delhi",
+            "value": "Delhi",
             "entity": "location"
           },
           {
@@ -1978,6 +2006,54 @@
           {
             "start": 51,
             "end": 52,
+            "value": "4",
+            "entity": "people"
+          }
+        ]
+      },
+      {
+        "text": "in covai",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "Coimbatore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "at kovai",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "Coimbatore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "find lowest price range british food for four people",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "low",
+            "entity": "price"
+          },
+          {
+            "start": 24,
+            "end": 31,
+            "value": "british",
+            "entity": "cuisine"
+          },
+          {
+            "start": 41,
+            "end": 45,
             "value": "4",
             "entity": "people"
           }

@@ -1652,6 +1652,1746 @@
           }
         ],
         "text": "find lowest price range british food for four people"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Ahmedabad",
+            "entity": "location"
+          }
+        ],
+        "text": "ahmedabad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Bangalore",
+            "entity": "location"
+          }
+        ],
+        "text": "Bangalore"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Ahmedabad",
+            "entity": "location"
+          }
+        ],
+        "text": "Ahmedabad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1207,
+            "value": "Warangal",
+            "entity": "location"
+          }
+        ],
+        "text": "Warangal"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1190,
+            "value": "Visakhapatnam",
+            "entity": "location"
+          }
+        ],
+        "text": "Visakhapatnam"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1175,
+            "value": "Vijayawada",
+            "entity": "location"
+          }
+        ],
+        "text": "Vijayawada"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1156,
+            "value": "Vasai Virar City",
+            "entity": "location"
+          }
+        ],
+        "text": "vasai virar city"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1099,
+            "value": "Tiruppur",
+            "entity": "location"
+          }
+        ],
+        "text": "tiruppur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1083,
+            "value": "tirunelveli",
+            "entity": "location"
+          }
+        ],
+        "text": "tirunelveli"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1065,
+            "value": "Tiruchirappalli",
+            "entity": "location"
+          }
+        ],
+        "text": "Tiruchirappalli"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1052,
+            "value": "Thrissur",
+            "entity": "location"
+          }
+        ],
+        "text": "Thrissur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1009,
+            "value": "Sultanpur",
+            "entity": "location"
+          }
+        ],
+        "text": "sultanpur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Delhi",
+            "entity": "location"
+          }
+        ],
+        "text": "delhi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Delhi",
+            "entity": "location"
+          }
+        ],
+        "text": "Delhi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Delhi",
+            "entity": "location"
+          }
+        ],
+        "text": "New Delhi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Goa",
+            "entity": "location"
+          }
+        ],
+        "text": "Goa"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "mid",
+            "entity": "price"
+          }
+        ],
+        "text": "300 or 700"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "mid",
+            "entity": "price"
+          }
+        ],
+        "text": "medium"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "low",
+            "entity": "price"
+          }
+        ],
+        "text": "cheapest"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Goa",
+            "entity": "location"
+          }
+        ],
+        "text": "goa"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "Durg Bhilai Nagar",
+            "entity": "location"
+          }
+        ],
+        "text": "durg bhilai nagar"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "chinese",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "Chinese"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "mexican",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "Mexican"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Italian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "Italian"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "American",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "American"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "South Indian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "South Indian"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "North Indian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "North Indian"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "high",
+            "entity": "price"
+          }
+        ],
+        "text": "expensive"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "mid",
+            "entity": "price"
+          }
+        ],
+        "text": "not so expensive"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "low",
+            "entity": "price"
+          }
+        ],
+        "text": "not at all expensive"
+      },
+      {
+        "intent": "affirm",
+        "text": "wow"
+      },
+      {
+        "intent": "affirm",
+        "text": "sounds good"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Aurangabad",
+            "entity": "location"
+          }
+        ],
+        "text": "aurangabad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Gulbarga",
+            "entity": "location"
+          }
+        ],
+        "text": "gulbarga"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "Thiruvananthapuram",
+            "entity": "location"
+          }
+        ],
+        "text": "thiruvananthapuram"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Surat",
+            "entity": "location"
+          }
+        ],
+        "text": "surat"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Sultanpur",
+            "entity": "location"
+          }
+        ],
+        "text": "sultanpur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Srinagar",
+            "entity": "location"
+          }
+        ],
+        "text": "srinagar"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Solapur",
+            "entity": "location"
+          }
+        ],
+        "text": "solapur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Siliguri",
+            "entity": "location"
+          }
+        ],
+        "text": "siliguri"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Sangli",
+            "entity": "location"
+          }
+        ],
+        "text": "sangli"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Salem",
+            "entity": "location"
+          }
+        ],
+        "text": "Salem"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Rourkela",
+            "entity": "location"
+          }
+        ],
+        "text": "Rourkela"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Ranchi",
+            "entity": "location"
+          }
+        ],
+        "text": "Ranchi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Rajahmundry",
+            "entity": "location"
+          }
+        ],
+        "text": "Rajahmundry"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Rajkot",
+            "entity": "location"
+          }
+        ],
+        "text": "Rajkot"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Raipur",
+            "entity": "location"
+          }
+        ],
+        "text": "Raipur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Prayagraj",
+            "entity": "location"
+          }
+        ],
+        "text": "Prayagraj"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Pondicherry",
+            "entity": "location"
+          }
+        ],
+        "text": "Pondicherry"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Patna",
+            "entity": "location"
+          }
+        ],
+        "text": "Patna"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Palakkad",
+            "entity": "location"
+          }
+        ],
+        "text": "Palakkad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Noida",
+            "entity": "location"
+          }
+        ],
+        "text": "Noida"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Nellore",
+            "entity": "location"
+          }
+        ],
+        "text": "Nellore"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Nashik",
+            "entity": "location"
+          }
+        ],
+        "text": "Nashik"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Nanded",
+            "entity": "location"
+          }
+        ],
+        "text": "Nanded"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Nagpur",
+            "entity": "location"
+          }
+        ],
+        "text": "Nagpur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Mysore",
+            "entity": "location"
+          }
+        ],
+        "text": "Mysore"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Moradabad",
+            "entity": "location"
+          }
+        ],
+        "text": "Moradabad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Meerut",
+            "entity": "location"
+          }
+        ],
+        "text": "Meerut"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Mangalore",
+            "entity": "location"
+          }
+        ],
+        "text": "Mangalore"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Mathura",
+            "entity": "location"
+          }
+        ],
+        "text": "Mathura"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Malappuram",
+            "entity": "location"
+          }
+        ],
+        "text": "Malappuram"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Madurai",
+            "entity": "location"
+          }
+        ],
+        "text": "Madurai"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Ludhiana",
+            "entity": "location"
+          }
+        ],
+        "text": "Ludhiana"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Lucknow",
+            "entity": "location"
+          }
+        ],
+        "text": "Lucknow"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Kurnool",
+            "entity": "location"
+          }
+        ],
+        "text": "Kurnool"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Kozhikode",
+            "entity": "location"
+          }
+        ],
+        "text": "Kozhikode"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Kota",
+            "entity": "location"
+          }
+        ],
+        "text": "Kota"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Kollam",
+            "entity": "location"
+          }
+        ],
+        "text": "Kollam"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Kolhapur",
+            "entity": "location"
+          }
+        ],
+        "text": "Kolhapur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Kottayam",
+            "entity": "location"
+          }
+        ],
+        "text": "Kottayam"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Kochi",
+            "entity": "location"
+          }
+        ],
+        "text": "Kochi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Kakinada",
+            "entity": "location"
+          }
+        ],
+        "text": "Kakinada"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Kanpur",
+            "entity": "location"
+          }
+        ],
+        "text": "Kanpur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Kannur",
+            "entity": "location"
+          }
+        ],
+        "text": "Kannur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Jodhpur",
+            "entity": "location"
+          }
+        ],
+        "text": "Jodhpur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Jhansi",
+            "entity": "location"
+          }
+        ],
+        "text": "Jhansi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Jamshedpur",
+            "entity": "location"
+          }
+        ],
+        "text": "Jamshedpur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Jamnagar",
+            "entity": "location"
+          }
+        ],
+        "text": "Jamnagar"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Jammu",
+            "entity": "location"
+          }
+        ],
+        "text": "Jammu"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Jalandhar",
+            "entity": "location"
+          }
+        ],
+        "text": "Jalandhar"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Jaipur",
+            "entity": "location"
+          }
+        ],
+        "text": "Jaipur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Jabalpur",
+            "entity": "location"
+          }
+        ],
+        "text": "Jabalpur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Indore",
+            "entity": "location"
+          }
+        ],
+        "text": "Indore"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Dharwad",
+            "entity": "location"
+          }
+        ],
+        "text": "Dharwad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Hubli",
+            "entity": "location"
+          }
+        ],
+        "text": "Hubli"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "Hubli",
+            "entity": "location"
+          }
+        ],
+        "text": "Hubli Dharwad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Gwalior",
+            "entity": "location"
+          }
+        ],
+        "text": "Gwalior"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Guwahati",
+            "entity": "location"
+          }
+        ],
+        "text": "Guwahati"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Gurgaon",
+            "entity": "location"
+          }
+        ],
+        "text": "Gurgaon"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Guntur",
+            "entity": "location"
+          }
+        ],
+        "text": "Guntur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Gulbarga",
+            "entity": "location"
+          }
+        ],
+        "text": "Gulbarga"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Gorakhpur",
+            "entity": "location"
+          }
+        ],
+        "text": "Gorakhpur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Ghaziabad",
+            "entity": "location"
+          }
+        ],
+        "text": "Ghaziabad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Firozabad",
+            "entity": "location"
+          }
+        ],
+        "text": "Firozabad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Faridabad",
+            "entity": "location"
+          }
+        ],
+        "text": "Faridabad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Erode",
+            "entity": "location"
+          }
+        ],
+        "text": "Erode"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Durgapur",
+            "entity": "location"
+          }
+        ],
+        "text": "Durgapur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "Durg Bhilai Nagar",
+            "entity": "location"
+          }
+        ],
+        "text": "Durg Bhilai Nagar"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Durg Bhilai Nagar",
+            "entity": "location"
+          }
+        ],
+        "text": "Durg"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Durg Bhilai Nagar",
+            "entity": "location"
+          }
+        ],
+        "text": "Bhilai"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Dhanbad",
+            "entity": "location"
+          }
+        ],
+        "text": "Dhanbad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Dehradun",
+            "entity": "location"
+          }
+        ],
+        "text": "Dehradun"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Cuttack",
+            "entity": "location"
+          }
+        ],
+        "text": "Cuttack"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Coimbatore",
+            "entity": "location"
+          }
+        ],
+        "text": "Coimbatore"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Chandigarh",
+            "entity": "location"
+          }
+        ],
+        "text": "Chandigarh"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "Bokaro Steel City",
+            "entity": "location"
+          }
+        ],
+        "text": "Bokaro Steel City"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Bokaro Steel City",
+            "entity": "location"
+          }
+        ],
+        "text": "Bokaro"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Bokaro Steel City",
+            "entity": "location"
+          }
+        ],
+        "text": "Steel City"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Bikaner",
+            "entity": "location"
+          }
+        ],
+        "text": "Bikaner"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Bhubaneswar",
+            "entity": "location"
+          }
+        ],
+        "text": "Bhubaneswar"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Bhopal",
+            "entity": "location"
+          }
+        ],
+        "text": "Bhopal"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Bhiwandi",
+            "entity": "location"
+          }
+        ],
+        "text": "Bhiwandi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Bhavnagar",
+            "entity": "location"
+          }
+        ],
+        "text": "Bhavnagar"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Belgaum",
+            "entity": "location"
+          }
+        ],
+        "text": "Belgaum"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Bareilly",
+            "entity": "location"
+          }
+        ],
+        "text": "Bareilly"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Aurangabad",
+            "entity": "location"
+          }
+        ],
+        "text": "Aurangabad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Asansol",
+            "entity": "location"
+          }
+        ],
+        "text": "Asansol"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Amritsar",
+            "entity": "location"
+          }
+        ],
+        "text": "Amritsar"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Amravati",
+            "entity": "location"
+          }
+        ],
+        "text": "Amravati"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Aligarh",
+            "entity": "location"
+          }
+        ],
+        "text": "Aligarh"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Ajmer",
+            "entity": "location"
+          }
+        ],
+        "text": "Ajmer"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Agra",
+            "entity": "location"
+          }
+        ],
+        "text": "Agra"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Pune",
+            "entity": "location"
+          }
+        ],
+        "text": "Pune"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Mumbai",
+            "entity": "location"
+          }
+        ],
+        "text": "Mumbai"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Kolkata",
+            "entity": "location"
+          }
+        ],
+        "text": "Kolkata"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Hyderabad",
+            "entity": "location"
+          }
+        ],
+        "text": "Hyderabad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Delhi",
+            "entity": "location"
+          }
+        ],
+        "text": "Delhi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Chennai",
+            "entity": "location"
+          }
+        ],
+        "text": "Chennai"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "ujjain",
+            "entity": "location"
+          }
+        ],
+        "text": "ujjain"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "bijapur",
+            "entity": "location"
+          }
+        ],
+        "text": "bijapur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "vadodara",
+            "entity": "location"
+          }
+        ],
+        "text": "vadodara"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "varanasi",
+            "entity": "location"
+          }
+        ],
+        "text": "varanasi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "vijayawada",
+            "entity": "location"
+          }
+        ],
+        "text": "vijayawada"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "visakhapatnam",
+            "entity": "location"
+          }
+        ],
+        "text": "visakhapatnam"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "warangal",
+            "entity": "location"
+          }
+        ],
+        "text": "warangal"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "north indian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "north"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "south indian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "south"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "indian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "indian"
+      },
+      {
+        "intent": "goodbye",
+        "text": "by"
+      },
+      {
+        "intent": "goodbye",
+        "text": "tata"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "suggest some food"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "find restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "low",
+            "entity": "price"
+          }
+        ],
+        "text": "300"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "high",
+            "entity": "price"
+          }
+        ],
+        "text": "700"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "mid",
+            "entity": "price"
+          }
+        ],
+        "text": "300 700"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "mid",
+            "entity": "price"
+          }
+        ],
+        "text": "mid"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "low",
+            "entity": "price"
+          }
+        ],
+        "text": "low"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "high",
+            "entity": "price"
+          }
+        ],
+        "text": "high"
       }
     ],
     "regex_features": [
@@ -1962,26 +3702,26 @@
         ]
       },
       {
-        "value": "durg bhilai nagar",
+        "value": "Durg Bhilai Nagar",
         "synonyms": [
           "durg",
           "bhilai",
           "Durg",
           "Bhilai",
-          "Durg Bhilai Nagar",
+          "durg bhilai nagar",
           "durg bhilai",
           "Durg Bhilai"
         ]
       },
       {
-        "value": "vasai virar city",
+        "value": "Vasai Virar City",
         "synonyms": [
           "vasai",
           "virar",
           "Virar",
           "vasai virar",
           "Vasai Virar",
-          "Vasai Virar City",
+          "vasai virar city",
           "Vasai"
         ]
       },

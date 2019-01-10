@@ -10,6 +10,12 @@
         "pattern": "hey[^\\s]*"
       }
     ],
+    "lookup_tables": [
+      {
+        "name": "location",
+        "elements": "data/lookup_tables/supported_cities.txt"
+      }
+    ],
     "entity_synonyms": [
       {
         "value": "chinese",
@@ -310,117 +316,6 @@
           "Panaji",
           "panjim",
           "panaji"
-        ]
-      }
-    ],
-    "lookup_tables": [
-      {
-        "name": "location",
-        "elements": [
-          "Ahmedabad",
-          "Bangalore",
-          "Chennai",
-          "Delhi",
-          "Hyderabad",
-          "Kolkata",
-          "Mumbai",
-          "Pune",
-          "Agra",
-          "Ajmer",
-          "Aligarh",
-          "Amravati",
-          "Amritsar",
-          "Asansol",
-          "Aurangabad",
-          "Bareilly",
-          "Belgaum",
-          "Bhavnagar",
-          "Bhiwandi",
-          "Bhopal",
-          "Bhubaneswar",
-          "Bikaner",
-          "Bokaro Steel City",
-          "Chandigarh",
-          "Coimbatore",
-          "Cuttack",
-          "Dehradun",
-          "Dhanbad",
-          "Durg Bhilai Nagar",
-          "Durgapur",
-          "Erode",
-          "Faridabad",
-          "Firozabad",
-          "Ghaziabad",
-          "Gorakhpur",
-          "Gulbarga",
-          "Guntur",
-          "Gurgaon",
-          "Guwahati",
-          "Gwalior",
-          "Hubli Dharwad",
-          "Indore",
-          "Jabalpur",
-          "Jaipur",
-          "Jalandhar",
-          "Jammu",
-          "Jamnagar",
-          "Jamshedpur",
-          "Jhansi",
-          "Jodhpur",
-          "Kannur",
-          "Kanpur",
-          "Kakinada",
-          "Kochi",
-          "Kottayam",
-          "Kolhapur",
-          "Kollam",
-          "Kota",
-          "Kozhikode",
-          "Kurnool",
-          "Lucknow",
-          "Ludhiana",
-          "Madurai",
-          "Malappuram",
-          "Mathura",
-          "Goa",
-          "Mangalore",
-          "Meerut",
-          "Moradabad",
-          "Mysore",
-          "Nagpur",
-          "Nanded",
-          "Nashik",
-          "Nellore",
-          "Noida",
-          "Palakkad",
-          "Patna",
-          "Pondicherry",
-          "Prayagraj",
-          "Raipur",
-          "Rajkot",
-          "Rajahmundry",
-          "Ranchi",
-          "Rourkela",
-          "Salem",
-          "Sangli",
-          "Siliguri",
-          "Solapur",
-          "Srinagar",
-          "Sultanpur",
-          "Surat",
-          "Thiruvananthapuram",
-          "Thrissur",
-          "Tiruchirappalli",
-          "Tirunelveli",
-          "Tiruppur",
-          "Ujjain",
-          "Bijapur",
-          "Vadodara",
-          "Varanasi",
-          "Vasai Virar City",
-          "Vijayawada",
-          "Visakhapatnam",
-          "Warangal"
         ]
       }
     ],
@@ -1733,90 +1628,6 @@
         ]
       },
       {
-        "text": "for four peoples",
-        "intent": "restaurant_search",
-        "entities": [
-          {
-            "start": 4,
-            "end": 16,
-            "value": "four peoples",
-            "entity": "people"
-          }
-        ]
-      },
-      {
-        "text": "peoples",
-        "intent": "restaurant_search",
-        "entities": [
-          {
-            "start": 0,
-            "end": 7,
-            "value": "peoples",
-            "entity": "people"
-          }
-        ]
-      },
-      {
-        "text": "3 persons",
-        "intent": "restaurant_search",
-        "entities": [
-          {
-            "start": 0,
-            "end": 9,
-            "value": "3 persons",
-            "entity": "people"
-          }
-        ]
-      },
-      {
-        "text": "two pax",
-        "intent": "restaurant_search",
-        "entities": [
-          {
-            "start": 4,
-            "end": 7,
-            "value": "pax",
-            "entity": "people"
-          }
-        ]
-      },
-      {
-        "text": "person",
-        "intent": "restaurant_search",
-        "entities": [
-          {
-            "start": 0,
-            "end": 6,
-            "value": "person",
-            "entity": "people"
-          }
-        ]
-      },
-      {
-        "text": "for 2 persons",
-        "intent": "restaurant_search",
-        "entities": [
-          {
-            "start": 0,
-            "end": 5,
-            "value": "for 2",
-            "entity": "people"
-          }
-        ]
-      },
-      {
-        "text": "for my team of 20 members",
-        "intent": "restaurant_search",
-        "entities": [
-          {
-            "start": 15,
-            "end": 25,
-            "value": "20 members",
-            "entity": "people"
-          }
-        ]
-      },
-      {
         "text": "not less than 300 but not more than 700",
         "intent": "restaurant_search",
         "entities": [
@@ -2057,6 +1868,120 @@
         "text": "Hola",
         "intent": "greet",
         "entities": []
+      },
+      {
+        "text": "can you show me south Indian cuisines in north goa",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 28,
+            "value": "south Indian",
+            "entity": "cuisine"
+          },
+          {
+            "start": 41,
+            "end": 50,
+            "value": "north goa",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "list all north Indian restaurants under budget 300 in bangalore",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 21,
+            "value": "north Indian",
+            "entity": "cuisine"
+          },
+          {
+            "start": 47,
+            "end": 50,
+            "value": "300",
+            "entity": "price"
+          },
+          {
+            "start": 54,
+            "end": 63,
+            "value": "bangalore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "any mexican restaurants in madras within the price range of 300 to 700 ",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "mexican",
+            "entity": "cuisine"
+          },
+          {
+            "start": 27,
+            "end": 33,
+            "value": "madras",
+            "entity": "location"
+          },
+          {
+            "start": 60,
+            "end": 70,
+            "value": "300 to 700",
+            "entity": "price"
+          }
+        ]
+      },
+      {
+        "text": "please book a table for 4 in Coimbatore with the lowest price range possible for mexican food",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 24,
+            "end": 25,
+            "value": "4",
+            "entity": "people"
+          },
+          {
+            "start": 49,
+            "end": 55,
+            "value": "lowest",
+            "entity": "price"
+          },
+          {
+            "start": 81,
+            "end": 88,
+            "value": "mexican",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "any restaurants in delhi serving american food for 4 peoples",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "delhi",
+            "entity": "location"
+          },
+          {
+            "start": 33,
+            "end": 41,
+            "value": "american",
+            "entity": "cuisine"
+          },
+          {
+            "start": 51,
+            "end": 52,
+            "value": "4",
+            "entity": "people"
+          }
+        ]
       }
     ]
   }

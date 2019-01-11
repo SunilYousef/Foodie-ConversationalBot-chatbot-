@@ -42,11 +42,11 @@ class ActionSearchRestaurants(Action):
 			response="Showing you top rated restaurants:\n"
 			count = 1
 			for restaurant in d['restaurants']:
-				response=response+ str(count) + ". "
-				response=response+ str(restaurant['restaurant']['name'])
-				response=response+ " in "
+				response=response+ str(count) + ". \""
+				response=response+ str(restaurant['restaurant']['name']) + "\""
+				response=response+ "\n\tin "
 				response=response+ str(restaurant['restaurant']['location']['address'])
-				response=response+ " has been rated "
+				response=response+ "\n\thas been rated "
 				response=response+ str(restaurant['restaurant']['user_rating']['aggregate_rating'])+ "\n"
 				count += 1
 		
@@ -82,14 +82,14 @@ class ActionSendEmail(Action):
 		options = {'mincft':mincft, 'maxcft':maxcft, 'sort':'rating', 'order':'dsc'}
 		results=zomato.restaurant_search_with_options("", lat, lon, str(cuisines_dict.get(cuisine.lower())), options, 10)
 		d = json.loads(results)
-		response="Hi,\n\nAs per your request please find the top rated "+ str(cuisine)+ " restaurants in "+ str(loc)+ " below. Enjoy, Bon Appetit!\n"
+		response="Hi,\n\nAs per your request please find the top rated "+ str(cuisine)+ " restaurants in "+ str(loc)+ " below. Enjoy, Bon Appetit!\n\n"
 		if d['results_found'] == 0:
 			response=response+ "Sorry, no results found :-("
 		else:
 			count = 1
 			for restaurant in d['restaurants']:
-				response=response+ str(count) + ". "
-				response=response+ str(restaurant['restaurant']['name'])
+				response=response+ str(count) + ". \""
+				response=response+ str(restaurant['restaurant']['name']) + "\""
 				response=response+ "\n\tAddress: "
 				response=response+ str(restaurant['restaurant']['location']['address'])
 				response=response+"\n\tRating: "

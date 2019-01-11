@@ -3392,12 +3392,100 @@
           }
         ],
         "text": "high"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "mid",
+            "entity": "price"
+          }
+        ],
+        "text": "300-700"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "mid",
+            "entity": "price"
+          }
+        ],
+        "text": "300 - 700"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "mid",
+            "entity": "price"
+          }
+        ],
+        "text": "300 to 700"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "low",
+            "entity": "price"
+          }
+        ],
+        "text": "Lesser than Rs. 300"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 14,
+            "value": "mid",
+            "entity": "price"
+          }
+        ],
+        "text": "Rs. 300 to 700"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "high",
+            "entity": "price"
+          }
+        ],
+        "text": "More than 700"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 20,
+            "value": "high",
+            "entity": "price"
+          }
+        ],
+        "text": "Greater than Rs. 700"
       }
     ],
     "regex_features": [
       {
         "name": "greet",
         "pattern": "hey[^\\s]*"
+      },
+      {
+        "name": "price",
+        "pattern": "[0-9]{3}"
       },
       {
         "name": "zipcode",

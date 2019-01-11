@@ -39,8 +39,16 @@ class ActionSearchRestaurants(Action):
 		if d['results_found'] == 0:
 			response= "no results"
 		else:
+			response="Showing you top rated restaurants:\n"
+			count = 1
 			for restaurant in d['restaurants']:
-				response=response+ "Found :- "+ restaurant['restaurant']['name']+ " in "+ restaurant['restaurant']['location']['address']+" has been rated "+ restaurant['restaurant']['user_rating']['aggregate_rating']+ "\n"
+				response=response+ str(count) + ". "
+				response=response+ str(restaurant['restaurant']['name'])
+				response=response+ " in "
+				response=response+ str(restaurant['restaurant']['location']['address'])
+				response=response+ " has been rated "
+				response=response+ str(restaurant['restaurant']['user_rating']['aggregate_rating'])+ "\n"
+				count += 1
 		
 		dispatcher.utter_message("-----\n"+response)
 		return [SlotSet('location',loc)]
@@ -66,21 +74,32 @@ class ActionSendEmail(Action):
 			mincft = 300
 			maxcft = 700
 		#print(price, mincft, maxcft)
-		print("mail sent to", email_id)
 		location_detail=zomato.get_location(loc, 1)
 		d1 = json.loads(location_detail)
 		lat=d1["location_suggestions"][0]["latitude"]
 		lon=d1["location_suggestions"][0]["longitude"]
 		cuisines_dict={'bakery':5,'chinese':25,'cafe':30,'italian':55,'biryani':7,'north indian':50,'south indian':85,'american':1,'mexican':73}
 		options = {'mincft':mincft, 'maxcft':maxcft, 'sort':'rating', 'order':'dsc'}
-		results=zomato.restaurant_search_with_options("", lat, lon, str(cuisines_dict.get(cuisine.lower())), options, 5)
+		results=zomato.restaurant_search_with_options("", lat, lon, str(cuisines_dict.get(cuisine.lower())), options, 10)
 		d = json.loads(results)
-		response=""
+		response="Hi,\n\nAs per your request please find the top rated "+ str(cuisine)+ " restaurants in "+ str(loc)+ " below. Enjoy, Bon Appetit!\n"
 		if d['results_found'] == 0:
-			response= "no results"
+			response=response+ "Sorry, no results found :-("
 		else:
+			count = 1
 			for restaurant in d['restaurants']:
-				response=response+ "Found :- "+ restaurant['restaurant']['name']+ " in "+ restaurant['restaurant']['location']['address']+" has been rated "+ restaurant['restaurant']['user_rating']['aggregate_rating']+ "\n"
+				response=response+ str(count) + ". "
+				response=response+ str(restaurant['restaurant']['name'])
+				response=response+ "\n\tAddress: "
+				response=response+ str(restaurant['restaurant']['location']['address'])
+				response=response+"\n\tRating: "
+				response=response+ str(restaurant['restaurant']['user_rating']['aggregate_rating'])
+				response=response+ "\n\tAverage price for two: "
+				response=response+ str(restaurant['restaurant']['average_cost_for_two'])
+				response=response+ str(restaurant['restaurant']['currency'])
+				response=response+ "\n"
+				count += 1
+		response=response+"\n\n\nThanks,\n\tTeam Foodie."
 		
 		dispatcher.utter_message("-----\n"+response)
 		return [SlotSet('emailid',email_id)]

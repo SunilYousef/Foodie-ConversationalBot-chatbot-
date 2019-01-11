@@ -5,11 +5,14 @@ slots:
     type: text
   price:
     type: text
+  emailid:
+    type: text
 
 entities:
 - location
 - cuisine
 - price
+- emailid
 
 intents:
  - greet
@@ -18,6 +21,7 @@ intents:
  - goodbye
  - thankyou
  - restaurant_search
+ - get_results_in_mail
 
 
 templates:
@@ -26,8 +30,11 @@ templates:
     - "Hi, How can I help you!"
     - "Hey, How is it going. How May I help you Today"
   utter_goodbye:
-    - "goodbye :("
-    - "Bye-bye"
+    - "Okay. Bon Appetit!"
+    - "Okay."
+  utter_mailsend:
+    - "Sent. Bon Appetit!"
+    - "Sent"
   utter_default:
     - "default message"
   utter_ask_cuisine: 
@@ -62,14 +69,22 @@ templates:
     - "Sorry, We do not operate in that area yet. Can you please specify some other location?"
     - "Sorry, we don't operate in this city. Can you please specify some other location?"
     - "Sorry, didn't find any such location. Can you please tell again?"
+  utter_ask_sendemail:
+    - "Should I send you details of all the restaurants on email?"
+  utter_ask_emailid:
+    - "To what email id should I send it to?"
 
 actions:
 - utter_greet
 - utter_goodbye
+- utter_mailsend
 - utter_default
 - utter_ask_howcanhelp
 - utter_ask_location
 - utter_ask_price
 - utter_ask_cuisine
 - utter_location_limit
+- utter_ask_sendemail
+- utter_ask_emailid
 - actions.ActionSearchRestaurants
+- actions.ActionSendEmail

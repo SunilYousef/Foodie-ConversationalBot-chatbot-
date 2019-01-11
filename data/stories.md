@@ -1,4 +1,4 @@
-## Generated Story 155706069223404498
+## Story 0000000000000000001
 * greet
     - utter_greet
 * restaurant_search
@@ -12,10 +12,31 @@
 * restaurant_search{"price": "300"}
     - action_restaurant
     - slot{"location": "delhi"}
-    - utter_goodbye
-    - export
+    - utter_ask_sendemail
+> check_asked_sendemail_question
 
-## Generated Story 2262006412097064854
+## user affirms question
+> check_asked_sendemail_question
+* affirm
+    - utter_ask_emailid
+* get_results_in_mail{"emailid": "someone@somewhere.co.in"}
+    - action_send_email
+    - slot{"emailid": "someone@somewhere.co.in"}
+    - utter_mailsend
+
+## user affirms question
+> check_asked_sendemail_question
+* get_results_in_mail{"emailid": "someone@somewhere.co.in"}
+    - action_send_email
+    - slot{"emailid": "someone@somewhere.co.in"}
+    - utter_mailsend
+
+## user denies question
+> check_asked_sendemail_question
+* deny
+    - utter_goodbye
+
+## Story 0000000000000000002
 * greet
     - utter_greet
 * restaurant_search
@@ -32,10 +53,10 @@
 * restaurant_search{"price": "300"}
     - action_restaurant
     - slot{"location": "delhi"}
-    - utter_goodbye
-    - export
+    - utter_ask_sendemail
+> check_asked_sendemail_question
 
-## Generated Story 3993277579540566202
+## Story 0000000000000000003
 * greet
     - utter_greet
 * restaurant_search{"location": "goa", "cuisine": "north indian"}
@@ -46,7 +67,7 @@
     - action_restaurant
     - utter_goodbye
 
-## Generated Story 4320800183399695936
+## Story 0000000000000000004
 * greet
     - utter_greet
 * restaurant_search{"location": "italy", "cuisine": "north indian"}
@@ -58,9 +79,10 @@
     - utter_ask_price
 * restaurant_search{"price": "> 700"}
     - action_restaurant
-    - utter_goodbye
+    - utter_ask_sendemail
+> check_asked_sendemail_question
 
-## Generated Story 5639179087166749998
+##  Story 0000000000000000005
 * greet
     - utter_greet
 * restaurant_search{"location": "thiruvananthapuram", "cuisine": "mexican", "price": "300-700"}
@@ -68,9 +90,10 @@
     - slot{"cuisine": "mexican"}
     - slot{"price": "300-700"}
     - action_restaurant
-    - utter_goodbye
+    - utter_ask_sendemail
+> check_asked_sendemail_question
 
-## Generated Story 6202606912004063854
+##  Story 0000000000000000006
 * greet
     - utter_greet
 * restaurant_search{"location": "ooty", "cuisine": "mexican", "price": "mid"}
@@ -81,10 +104,13 @@
     - slot{"cuisine": "mexican"}
     - slot{"price": "300-700"}
     - action_restaurant
-    - utter_goodbye
+    - utter_ask_sendemail
+> check_asked_sendemail_question
 
 
-## Generated Story 7963448062290237512
+##  Story 0000000000000000007
+* greet
+    - utter_greet
 * restaurant_search{"location": "delhi"}
     - slot{"location": "delhi"}
     - utter_ask_cuisine
@@ -93,11 +119,12 @@
     - utter_ask_price
 * restaurant_search{"price": "300"}
     - action_restaurant
-* affirm
-    - utter_goodbye
-    - export
+    - utter_ask_sendemail
+> check_asked_sendemail_question
 
-## Generated Story 6202606912004063854
+##  Story 0000000000000000008
+* greet
+    - utter_greet
 * restaurant_search{"location": "ooty"}
     - slot{"location": "ooty"}
 	- utter_location_limit
@@ -109,22 +136,24 @@
     - utter_ask_price
 * restaurant_search{"price": "300"}
     - action_restaurant
-* affirm
-    - utter_goodbye
-    - export
+    - utter_ask_sendemail
+> check_asked_sendemail_question
 
-## Generated Story 8202646912094063854
+##  Story 0000000000000000009
+* greet
+    - utter_greet
 * restaurant_search{"location": "delhi", "cuisine": "chinese"}
     - slot{"location": "delhi"}
     - slot{"cuisine": "chinese"}
     - utter_ask_price
 * restaurant_search{"price": "300"}
     - action_restaurant
-* affirm
-    - utter_goodbye
-    - export
+    - utter_ask_sendemail
+> check_asked_sendemail_question
 
-## Generated Story 9202606112094063859
+##  Story 0000000000000000010
+* greet
+    - utter_greet
 * restaurant_search{"location": "rishikesh", "cuisine": "chinese"}
     - slot{"location": "rishikesh"}
     - slot{"cuisine": "chinese"}
@@ -135,21 +164,23 @@
     - utter_ask_price
 * restaurant_search{"price": "300"}
     - action_restaurant
-* affirm
-    - utter_goodbye
-    - export
+    - utter_ask_sendemail
+> check_asked_sendemail_question
 
-## Generated Story 1902406912094063854
+##  Story 0000000000000000011
+* greet
+    - utter_greet
 * restaurant_search{"location": "delhi", "cuisine": "chinese", "price": "300"}
     - slot{"location": "delhi"}
     - slot{"cuisine": "chinese"}
     - slot{"price": "300"}
     - action_restaurant
-* affirm
-    - utter_goodbye
-    - export
+    - utter_ask_sendemail
+> check_asked_sendemail_question
 
-## Generated Story 2902606912024063854
+##  Story 0000000000000000012
+* greet
+    - utter_greet
 * restaurant_search{"location": "ooty", "cuisine": "chinese", "price": "300"}
     - slot{"location": "ooty"}
     - slot{"cuisine": "chinese"}
@@ -160,6 +191,5 @@
     - slot{"cuisine": "chinese"}
     - slot{"price": "300"}
     - action_restaurant
-* affirm
-    - utter_goodbye
-    - export
+    - utter_ask_sendemail
+> check_asked_sendemail_question

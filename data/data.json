@@ -6,6 +6,10 @@
         "pattern": "[0-9]{5}"
       },
       {
+        "name": "emailid",
+        "pattern": "^\\w+@[a-zA-Z_]+?\\.[a-zA-Z]{2,3}$"
+      },
+      {
         "name": "price",
         "pattern": "[0-9]{3}"
       },
@@ -3890,6 +3894,198 @@
             "end": 20,
             "value": "high",
             "entity": "price"
+          }
+        ]
+      },
+      {
+        "text": "sunil.yousef@gmail.com",
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "value": "sunil.yousef@gmail.com",
+            "entity": "emailid"
+          }
+        ]
+      },
+      {
+        "text": "someone@somewhere.co.in",
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "someone@somewhere.co.in",
+            "entity": "emailid"
+          }
+        ]
+      },
+      {
+        "text": "jddk.2jmd@kdl.co.in",
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "jddk.2jmd@kdl.co.in",
+            "entity": "emailid"
+          }
+        ]
+      },
+      {
+        "text": "yes. Please send it to xyz@sth.edu",
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 23,
+            "end": 34,
+            "value": "xyz@sth.edu",
+            "entity": "emailid"
+          }
+        ]
+      },
+      {
+        "text": "yes. Please send to ahbcdj@dkj.com",
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 20,
+            "end": 34,
+            "value": "ahbcdj@dkj.com",
+            "entity": "emailid"
+          }
+        ]
+      },
+      {
+        "text": "yep. send to ahbcdj@dkj.com",
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 13,
+            "end": 27,
+            "value": "ahbcdj@dkj.com",
+            "entity": "emailid"
+          }
+        ]
+      },
+      {
+        "text": "send to ahbcdj@dkj.co.in",
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 8,
+            "end": 24,
+            "value": "ahbcdj@dkj.co.in",
+            "entity": "emailid"
+          }
+        ]
+      },
+      {
+        "text": "my mail id is ahbcdj@dkj.co.in",
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 14,
+            "end": 30,
+            "value": "ahbcdj@dkj.co.in",
+            "entity": "emailid"
+          }
+        ]
+      },
+      {
+        "text": "name.midname.surname.desig@some.edu",
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 0,
+            "end": 35,
+            "value": "name.midname.surname.desig@some.edu",
+            "entity": "emailid"
+          }
+        ]
+      },
+      {
+        "text": "no",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "no. thanks",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "not needed",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "no need",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "donot",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "dont",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "no thanks",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "never mind",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "i dont want publish my mail id",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "i will not share my mail id",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "no please",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "never",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "sure please send to xyz@sth.edu",
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 20,
+            "end": 31,
+            "value": "xyz@sth.edu",
+            "entity": "emailid"
+          }
+        ]
+      },
+      {
+        "text": "alright my mail id is xyz@sth.edu",
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 22,
+            "end": 33,
+            "value": "xyz@sth.edu",
+            "entity": "emailid"
           }
         ]
       }

@@ -2,29 +2,38 @@ action_factory: null
 action_names:
 - utter_greet
 - utter_goodbye
+- utter_mailsend
 - utter_default
 - utter_ask_howcanhelp
 - utter_ask_location
 - utter_ask_price
 - utter_ask_cuisine
 - utter_location_limit
+- utter_ask_sendemail
+- utter_ask_emailid
 - action_restaurant
+- action_send_email
 actions:
 - utter_greet
 - utter_goodbye
+- utter_mailsend
 - utter_default
 - utter_ask_howcanhelp
 - utter_ask_location
 - utter_ask_price
 - utter_ask_cuisine
 - utter_location_limit
+- utter_ask_sendemail
+- utter_ask_emailid
 - actions.ActionSearchRestaurants
+- actions.ActionSendEmail
 config:
   store_entities_as_slots: true
 entities:
 - location
 - cuisine
 - price
+- emailid
 intents:
 - greet
 - affirm
@@ -32,8 +41,12 @@ intents:
 - goodbye
 - thankyou
 - restaurant_search
+- get_results_in_mail
 slots:
   cuisine:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  emailid:
     initial_value: null
     type: rasa_core.slots.TextSlot
   location:
@@ -58,6 +71,8 @@ templates:
     - payload: North Indian
       title: North Indian
     text: what kind of cuisine would you like?
+  utter_ask_emailid:
+  - text: To what email id should I send it to?
   utter_ask_howcanhelp:
   - text: how can I help you?
   utter_ask_location:
@@ -71,11 +86,13 @@ templates:
     - payload: More than 700
       title: More than 700
     text: What's the average budget for two people?
+  utter_ask_sendemail:
+  - text: Should I send you details of all the restaurants on email?
   utter_default:
   - text: default message
   utter_goodbye:
-  - text: goodbye :(
-  - text: Bye-bye
+  - text: Okay. Bon Appetit!
+  - text: Okay.
   utter_greet:
   - text: hey there! How may i help you
   - text: Hi, How can I help you!
@@ -86,3 +103,6 @@ templates:
   - text: Sorry, we don't operate in this city. Can you please specify some other
       location?
   - text: Sorry, didn't find any such location. Can you please tell again?
+  utter_mailsend:
+  - text: Sent. Bon Appetit!
+  - text: Sent

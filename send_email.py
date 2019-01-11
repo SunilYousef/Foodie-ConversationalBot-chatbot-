@@ -3,7 +3,7 @@ from flask_mail import Mail, Message
 
 app = flask.Flask(__name__)
 app.config.update(
-    DEBUG=True,
+    DEBUG=False,
     #EMAIL SETTINGS
     MAIL_SERVER='smtp.gmail.com',
     MAIL_PORT=465,
@@ -14,7 +14,7 @@ app.config.update(
 
 mail = Mail(app)
 
-app.route('/send-mail/')
+@app.route('/send-mail/')
 def send_mail(recipients, subject, mailbody):
     try:
         with app.app_context():
@@ -23,6 +23,6 @@ def send_mail(recipients, subject, mailbody):
                           recipients=recipients)
             msg.body = mailbody           
             mail.send(msg)
-        return 'Mail sent!'
+        return ''
     except Exception as e:
         return(str(e))

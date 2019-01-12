@@ -193,3 +193,125 @@
     - action_restaurant
     - utter_ask_sendemail
 > check_asked_sendemail_question
+
+## Generated Story 4700931330248361679
+* greet
+    - utter_greet
+* goodbye
+    - utter_goodbye
+    - export
+
+## Generated Story 8131397312185894717
+* greet{"location": "hola"}
+    - slot{"location": "hola"}
+    - utter_greet
+* restaurant_search
+    - utter_ask_location
+* restaurant_search
+    - utter_location_limit
+* restaurant_search{"location": "Bangalore"}
+    - slot{"location": "Bangalore"}
+    - utter_ask_cuisine
+* restaurant_search
+    - utter_ask_price
+* restaurant_search{"price": "mid"}
+    - slot{"price": "mid"}
+    - action_restaurant
+    - slot{"location": "Bangalore"}
+    - utter_ask_sendemail
+* get_results_in_mail{"emailid": "ahbcdj@dkj.com"}
+    - slot{"emailid": "ahbcdj@dkj.com"}
+    - action_send_email
+    - slot{"emailid": "ahbcdj@dkj.com"}
+    - utter_mailsend
+    - export
+
+## Generated Story 236254821244267932
+* greet
+    - utter_greet
+* restaurant_search{"location": "Kolkata"}
+    - slot{"location": "Kolkata"}
+    - utter_ask_cuisine
+* restaurant_search{"cuisine": "american"}
+    - slot{"cuisine": "american"}
+    - utter_ask_price
+* restaurant_search{"price": "low"}
+    - slot{"price": "low"}
+    - action_restaurant
+    - slot{"location": "Kolkata"}
+    - utter_ask_sendemail
+* affirm
+    - utter_ask_emailid
+* get_results_in_mail{"emailid": "jddk.2jmd@kdl.co.in"}
+    - slot{"emailid": "jddk.2jmd@kdl.co.in"}
+    - action_send_email
+    - slot{"emailid": "jddk.2jmd@kdl.co.in"}
+    - utter_mailsend
+    - export
+
+## Generated Story -2732441655758330338
+* greet
+    - utter_greet
+* restaurant_search
+    - utter_ask_location
+* restaurant_search{"location": "mubaim"}
+    - slot{"location": "mubaim"}
+    - utter_location_limit
+* restaurant_search{"location": "Mumbai"}
+    - slot{"location": "Mumbai"}
+    - utter_ask_cuisine
+* restaurant_search{"cuisine": "american"}
+    - slot{"cuisine": "american"}
+    - utter_ask_price
+* restaurant_search{"price": "low"}
+    - slot{"price": "low"}
+    - action_restaurant
+    - slot{"location": "Mumbai"}
+    - utter_ask_sendemail
+* affirm
+    - utter_ask_emailid
+* get_results_in_mail{"emailid": "jddk.2jmd@kdl.co.in"}
+    - slot{"emailid": "jddk.2jmd@kdl.co.in"}
+    - action_send_email
+    - slot{"emailid": "jddk.2jmd@kdl.co.in"}
+    - utter_mailsend
+    - export
+
+## Generated Story -4744516077768943056
+* greet
+    - utter_greet
+* restaurant_search{"cuisine": "chinese", "location": "Chandigarh"}
+    - slot{"cuisine": "chinese"}
+    - slot{"location": "Chandigarh"}
+    - utter_ask_price
+* restaurant_search{"price": "<700"}
+    - slot{"price": "<700"}
+    - action_restaurant
+    - slot{"location": "Chandigarh"}
+    - utter_ask_sendemail
+* deny
+    - utter_goodbye
+* greet
+    - utter_greet
+* get_results_in_mail{"emailid": "example@something.com"}
+    - slot{"emailid": "example@something.com"}
+    - action_send_email
+    - slot{"emailid": "example@something.com"}
+    - utter_mailsend
+    - export
+
+## Generated Story 6243198563120645500
+* greet
+    - utter_greet
+* restaurant_search{"cuisine": "chinese", "location": "Chandigarh"}
+    - slot{"cuisine": "chinese"}
+    - slot{"location": "Chandigarh"}
+    - utter_ask_price
+* restaurant_search{"price": "low"}
+    - slot{"price": "low"}
+    - action_restaurant
+    - slot{"location": "Chandigarh"}
+    - utter_ask_sendemail
+* deny
+    - utter_goodbye
+    - export

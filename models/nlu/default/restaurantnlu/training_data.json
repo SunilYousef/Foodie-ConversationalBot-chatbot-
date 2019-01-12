@@ -4055,18 +4055,6 @@
           {
             "start": 0,
             "end": 15,
-            "value": "mid",
-            "entity": "price"
-          }
-        ],
-        "text": "< seven hundred"
-      },
-      {
-        "intent": "restaurant_search",
-        "entities": [
-          {
-            "start": 0,
-            "end": 15,
             "value": "high",
             "entity": "price"
           }
@@ -4084,18 +4072,6 @@
           }
         ],
         "text": "less than three hundred"
-      },
-      {
-        "intent": "restaurant_search",
-        "entities": [
-          {
-            "start": 0,
-            "end": 7,
-            "value": "mid",
-            "entity": "price"
-          }
-        ],
-        "text": "300-900"
       },
       {
         "intent": "restaurant_search",
@@ -4183,10 +4159,6 @@
       },
       {
         "intent": "restaurant_search",
-        "text": "resturants"
-      },
-      {
-        "intent": "restaurant_search",
         "text": "I am hungry.Can you suggest what to eat"
       },
       {
@@ -4234,6 +4206,7 @@
         "text": "Best Mexican in the city"
       },
       {
+        "intent": "restaurant_search",
         "entities": [
           {
             "start": 5,
@@ -4254,13 +4227,13 @@
         "intent": "restaurant_search",
         "entities": [
           {
-            "start": 4,
+            "start": 3,
             "end": 10,
             "value": "Lucknow",
             "entity": "location"
           }
         ],
-        "text": "in  Lucknw"
+        "text": "in Lucknow"
       },
       {
         "intent": "restaurant_search",
@@ -4327,6 +4300,60 @@
           }
         ],
         "text": "seven hundred or less"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 55,
+            "end": 65,
+            "value": "mid",
+            "entity": "price"
+          },
+          {
+            "start": 40,
+            "end": 47,
+            "value": "Chennai",
+            "entity": "location"
+          },
+          {
+            "start": 84,
+            "end": 100,
+            "value": "abc.def@gm.co.in",
+            "entity": "emailid"
+          },
+          {
+            "start": 17,
+            "end": 24,
+            "value": "italian",
+            "entity": "price"
+          }
+        ],
+        "text": "Send the list of Italian restaurants in Chennai within 300 to 700 range  to my mail abc.def@gm.co.in"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 48,
+            "end": 56,
+            "value": "newdelhi",
+            "entity": "location"
+          },
+          {
+            "start": 60,
+            "end": 76,
+            "value": "abc.def@gm.co.in",
+            "entity": "emailid"
+          },
+          {
+            "start": 25,
+            "end": 32,
+            "value": "italian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "Can you Send the list of Italian restaurants in newdelhi to abc.def@gm.co.in"
       }
     ],
     "regex_features": [
@@ -4428,7 +4455,9 @@
           "City of seven Islands",
           "Bombay",
           "bombay",
-          "mumbai"
+          "mumbai",
+          "BOM",
+          "bom"
         ]
       },
       {
@@ -4446,6 +4475,10 @@
           "bengaluru",
           "bglr",
           "Bglr",
+          "Blr",
+          "blr",
+          "Blore",
+          "blore",
           "Garden City"
         ]
       },
@@ -4480,13 +4513,16 @@
           "New Delhi",
           "newdelhi",
           "del",
+          "Del",
           "delhi",
           "Dilli",
+          "dilli",
           "new delhi",
           "NewDelhi",
           "Capital City Of India",
           "National Capital",
-          "NCR"
+          "NCR",
+          "ncr"
         ]
       },
       {
@@ -4649,7 +4685,11 @@
         "synonyms": [
           "chennai",
           "Madras",
-          "madras"
+          "madras",
+          "chn",
+          "Chn",
+          "MAS",
+          "mas"
         ]
       },
       {

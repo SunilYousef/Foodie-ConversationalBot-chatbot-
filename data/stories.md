@@ -315,3 +315,20 @@
 * deny
     - utter_goodbye
     - export
+
+## Generated Story -1114575028331551319
+* greet
+    - utter_greet
+* restaurant_search{"cuisine": "chinese", "location": "Pune", "emailid": "abc.def@gm.co.in"}
+    - slot{"cuisine": "chinese"}
+    - slot{"emailid": "abc.def@gm.co.in"}
+    - slot{"location": "Pune"}
+    - utter_ask_price
+* restaurant_search{"price": "mid"}
+    - slot{"price": "mid"}
+    - action_restaurant
+    - slot{"location": "Pune"}
+    - action_send_email
+    - slot{"emailid": "abc.def@gm.co.in"}
+    - utter_mailsend
+    - export

@@ -91,14 +91,6 @@
       },
       {
         "intent": "restaurant_search",
-        "entities": [
-          {
-            "start": 31,
-            "end": 36,
-            "value": "north",
-            "entity": "location"
-          }
-        ],
         "text": "i'm looking for a place in the north of town"
       },
       {
@@ -125,29 +117,29 @@
           {
             "start": 34,
             "end": 39,
-            "value": "north",
+            "value": "Delhi",
             "entity": "location"
           }
         ],
-        "text": "show me chines restaurants in the north"
+        "text": "show me chines restaurants in the Delhi region"
       },
       {
         "intent": "restaurant_search",
         "entities": [
           {
-            "start": 31,
-            "end": 37,
-            "value": "centre",
-            "entity": "location"
-          },
-          {
             "start": 10,
             "end": 17,
             "value": "mexican",
             "entity": "cuisine"
+          },
+          {
+            "start": 31,
+            "end": 39,
+            "value": "Bangalore",
+            "entity": "location"
           }
         ],
-        "text": "show me a mexican place in the centre"
+        "text": "show me a mexican place in the Banglore centre"
       },
       {
         "intent": "restaurant_search",
@@ -191,14 +183,6 @@
       },
       {
         "intent": "restaurant_search",
-        "entities": [
-          {
-            "start": 17,
-            "end": 29,
-            "value": "asian fusion",
-            "entity": "cuisine"
-          }
-        ],
         "text": "I am looking for asian fusion food"
       },
       {
@@ -399,7 +383,7 @@
           {
             "start": 24,
             "end": 28,
-            "value": "rome",
+            "value": "Rome",
             "entity": "location"
           },
           {
@@ -428,18 +412,18 @@
         "entities": [
           {
             "start": 0,
-            "end": 7,
-            "value": "central",
+            "end": 9,
+            "value": "Bangalore",
             "entity": "location"
           },
           {
-            "start": 8,
-            "end": 14,
-            "value": "indian",
+            "start": 10,
+            "end": 22,
+            "value": "north indian",
             "entity": "cuisine"
           }
         ],
-        "text": "central indian restaurant"
+        "text": "Bangalore North indian restaurant"
       },
       {
         "intent": "goodbye",
@@ -489,19 +473,19 @@
         "intent": "restaurant_search",
         "entities": [
           {
-            "start": 17,
-            "end": 29,
-            "value": "asian fusion",
-            "entity": "cuisine"
-          },
-          {
-            "start": 38,
-            "end": 49,
+            "start": 32,
+            "end": 43,
             "value": "Delhi",
             "entity": "location"
+          },
+          {
+            "start": 17,
+            "end": 23,
+            "value": "chinese",
+            "entity": "cuisine"
           }
         ],
-        "text": "i am looking for asian fusion food in North Delhi"
+        "text": "i am looking for chines food in North Delhi"
       },
       {
         "intent": "restaurant_search",
@@ -1114,18 +1098,6 @@
         "entities": [
           {
             "start": 0,
-            "end": 4,
-            "value": "italian",
-            "entity": "cuisine"
-          }
-        ],
-        "text": "ital"
-      },
-      {
-        "intent": "restaurant_search",
-        "entities": [
-          {
-            "start": 0,
             "end": 7,
             "value": "italian",
             "entity": "cuisine"
@@ -1382,10 +1354,6 @@
         "text": "tc"
       },
       {
-        "intent": "goodbye",
-        "text": "by"
-      },
-      {
         "intent": "affirm",
         "text": "select this"
       },
@@ -1519,7 +1487,7 @@
             "entity": "location"
           },
           {
-            "start": 34,
+            "start": 47,
             "end": 50,
             "value": "low",
             "entity": "price"
@@ -3307,10 +3275,6 @@
       },
       {
         "intent": "goodbye",
-        "text": "by"
-      },
-      {
-        "intent": "goodbye",
         "text": "tata"
       },
       {
@@ -3619,7 +3583,7 @@
       },
       {
         "intent": "deny",
-        "text": "i dont want publish my mail id"
+        "text": "i dont want to publish my mail id"
       },
       {
         "intent": "deny",
@@ -3692,12 +3656,683 @@
           }
         ],
         "text": "italian"
+      },
+      {
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 0,
+            "end": 30,
+            "value": "bharat.agrawal.mlai3@iiitb.net",
+            "entity": "emailid"
+          }
+        ],
+        "text": "bharat.agrawal.mlai3@iiitb.net"
+      },
+      {
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 0,
+            "end": 28,
+            "value": "ashish.gupta.mlai3@iiitb.com",
+            "entity": "emailid"
+          }
+        ],
+        "text": "ashish.gupta.mlai3@iiitb.com"
+      },
+      {
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 0,
+            "end": 27,
+            "value": "b!bhuti123$%_sahu@gmail.com",
+            "entity": "emailid"
+          }
+        ],
+        "text": "b!bhuti123$%_sahu@gmail.com"
+      },
+      {
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 14,
+            "end": 36,
+            "value": "sunil.yousef@gmail.com",
+            "entity": "emailid"
+          }
+        ],
+        "text": "Ok send it to sunil.yousef@gmail.com"
+      },
+      {
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 17,
+            "end": 47,
+            "value": "bharat.agrawal.mlai3@iiitb.net",
+            "entity": "emailid"
+          }
+        ],
+        "text": "Cool, send it to bharat.agrawal.mlai3@iiitb.net"
+      },
+      {
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 4,
+            "end": 33,
+            "value": "bibhutibhusansahu27@gmail.com",
+            "entity": "emailid"
+          }
+        ],
+        "text": "Its bibhutibhusansahu27@gmail.com"
+      },
+      {
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 17,
+            "end": 47,
+            "value": "bharat.agrawal.mlai3@iiitb.net",
+            "entity": "emailid"
+          }
+        ],
+        "text": "Great,send it to bharat.agrawal.mlai3@iiitb.net"
+      },
+      {
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 11,
+            "end": 46,
+            "value": "other.email-with-hyphen@example.com",
+            "entity": "emailid"
+          }
+        ],
+        "text": "Send it to other.email-with-hyphen@example.com"
+      },
+      {
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 0,
+            "end": 46,
+            "value": "disposable.style.email.with+symbol@example.com",
+            "entity": "emailid"
+          }
+        ],
+        "text": "disposable.style.email.with+symbol@example.com"
+      },
+      {
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 0,
+            "end": 34,
+            "value": "fully-qualified-domain@example.com",
+            "entity": "emailid"
+          }
+        ],
+        "text": "fully-qualified-domain@example.com"
+      },
+      {
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 19,
+            "end": 53,
+            "value": "fully-qualified-domain@example.com",
+            "entity": "emailid"
+          }
+        ],
+        "text": "I would like it in fully-qualified-domain@example.com"
+      },
+      {
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 10,
+            "end": 40,
+            "value": "bharat.agrawal.mlai3@iiitb.net",
+            "entity": "emailid"
+          }
+        ],
+        "text": "mailid is bharat.agrawal.mlai3@iiitb.net"
+      },
+      {
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 11,
+            "end": 44,
+            "value": "user.name+tag+sorting@example.com",
+            "entity": "emailid"
+          }
+        ],
+        "text": "Send it to user.name+tag+sorting@example.com"
+      },
+      {
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 15,
+            "end": 38,
+            "value": "very.common@example.com",
+            "entity": "emailid"
+          }
+        ],
+        "text": "Please send it very.common@example.com"
+      },
+      {
+        "intent": "deny",
+        "text": "Please don't send"
+      },
+      {
+        "intent": "deny",
+        "text": "Please dont send"
+      },
+      {
+        "intent": "affirm",
+        "text": "Much appreciated"
+      },
+      {
+        "intent": "affirm",
+        "text": "Appreciated"
+      },
+      {
+        "intent": "affirm",
+        "text": "okay"
+      },
+      {
+        "intent": "affirm",
+        "text": "Sounds great"
+      },
+      {
+        "intent": "affirm",
+        "text": "thats wonderful"
+      },
+      {
+        "intent": "affirm",
+        "text": "thats awesome"
+      },
+      {
+        "intent": "deny",
+        "text": "No way"
+      },
+      {
+        "intent": "deny",
+        "text": "Not required"
+      },
+      {
+        "intent": "deny",
+        "text": "Not this time"
+      },
+      {
+        "intent": "deny",
+        "text": "May be later"
+      },
+      {
+        "intent": "deny",
+        "text": "Dont do that"
+      },
+      {
+        "intent": "deny",
+        "text": "May be next time"
+      },
+      {
+        "intent": "deny",
+        "text": "Its not required"
+      },
+      {
+        "intent": "deny",
+        "text": "Dont take that trouble"
+      },
+      {
+        "intent": "goodbye",
+        "text": "ttyl"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Talk to you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Time to leave"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Got to go"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Take care"
+      },
+      {
+        "intent": "affirm",
+        "text": "Nice"
+      },
+      {
+        "intent": "affirm",
+        "text": "That would be nice"
+      },
+      {
+        "intent": "affirm",
+        "text": "That will help"
+      },
+      {
+        "intent": "greet",
+        "text": "Howz it going"
+      },
+      {
+        "intent": "greet",
+        "text": "Dear Mam"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello Foodie"
+      },
+      {
+        "intent": "greet",
+        "text": "Foodie"
+      },
+      {
+        "intent": "greet",
+        "text": "Talk to me"
+      },
+      {
+        "intent": "greet",
+        "text": "You there?"
+      },
+      {
+        "intent": "greet",
+        "text": "R u there?"
+      },
+      {
+        "intent": "greet",
+        "text": "Are you there"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "I want to grab dinner"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "chinese",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "show me some chinese restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "mexican",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "I am looking for mexican fusion food"
+      },
+      {
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "chinese",
+            "entity": "cuisine"
+          },
+          {
+            "start": 42,
+            "end": 46,
+            "value": "Pune",
+            "entity": "location"
+          },
+          {
+            "start": 50,
+            "end": 63,
+            "value": "abc@hello.com",
+            "entity": "emailid"
+          }
+        ],
+        "text": "Can you send the top chines resturants in pune to abc@hello.com"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "chinese",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "Can you show the  chines resturants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "high",
+            "entity": "price"
+          }
+        ],
+        "text": "seven hundred or more"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "high",
+            "entity": "price"
+          }
+        ],
+        "text": ">seven hundred"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "mid",
+            "entity": "price"
+          }
+        ],
+        "text": "< seven hundred"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "high",
+            "entity": "price"
+          }
+        ],
+        "text": "> seven hundred"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 23,
+            "value": "low",
+            "entity": "price"
+          }
+        ],
+        "text": "less than three hundred"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "mid",
+            "entity": "price"
+          }
+        ],
+        "text": "300-900"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "mid",
+            "entity": "price"
+          }
+        ],
+        "text": "300..700"
+      },
+      {
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 4,
+            "end": 21,
+            "value": "abc.sse@fff.co.uk",
+            "entity": "emailid"
+          }
+        ],
+        "text": "Its abc.sse@fff.co.uk"
+      },
+      {
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 8,
+            "end": 25,
+            "value": "abc.sse@fff.co.uk",
+            "entity": "emailid"
+          }
+        ],
+        "text": "send to abc.sse@fff.co.uk"
+      },
+      {
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 11,
+            "end": 28,
+            "value": "abc.sse@fff.co.uk",
+            "entity": "emailid"
+          }
+        ],
+        "text": "send it to abc.sse@fff.co.uk"
+      },
+      {
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 18,
+            "end": 35,
+            "value": "abc.sse@fff.co.uk",
+            "entity": "emailid"
+          }
+        ],
+        "text": "please send it to abc.sse@fff.co.uk"
+      },
+      {
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 19,
+            "end": 36,
+            "value": "abc.sse@fff.co.in",
+            "entity": "emailid"
+          }
+        ],
+        "text": "I would like it in abc.sse@fff.co.in"
+      },
+      {
+        "intent": "get_results_in_mail",
+        "entities": [
+          {
+            "start": 13,
+            "end": 30,
+            "value": "abc.sse@fff.co.uk",
+            "entity": "emailid"
+          }
+        ],
+        "text": "i want it in abc.sse@fff.co.uk"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "resturants"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "I am hungry.Can you suggest what to eat"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "chinese",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "where can i get chines"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "what should i eat today"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "best food in the town"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "chinese",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "top rated chines resturants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "mexican",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "Best Mexican in the city"
+      },
+      {
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "mexican",
+            "entity": "cuisine"
+          },
+          {
+            "start": 20,
+            "end": 26,
+            "value": "Mumbai",
+            "entity": "location"
+          }
+        ],
+        "text": "Best Mexican in the Mumbai city"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "Lucknow",
+            "entity": "location"
+          }
+        ],
+        "text": "in  Lucknw"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "Rajasthani thali",
+            "entity": "cuisine"
+          },
+          {
+            "start": 31,
+            "end": 40,
+            "value": "Ahmedabad",
+            "entity": "location"
+          },
+          {
+            "start": 56,
+            "end": 81,
+            "value": "b3rat.20@rediffmail.co.in",
+            "entity": "emailid"
+          }
+        ],
+        "text": "Rajasthani thali restrnts near Ahemdabad station, id is b3rat.20@rediffmail.co.in"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "italian",
+            "entity": "cuisine"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "Delhi",
+            "entity": "location"
+          }
+        ],
+        "text": "Does Del have any ital restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "high",
+            "entity": "price"
+          }
+        ],
+        "text": "seven hundred"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "mid",
+            "entity": "price"
+          }
+        ],
+        "text": "seven hundred or less"
       }
     ],
     "regex_features": [
       {
         "name": "emailid",
-        "pattern": "^\\w+@[a-zA-Z_]+?\\.[a-zA-Z]{2,3}$"
+        "pattern": "^[\\w.!#$%&'*+-=?^_`{|}~]+@[\\w]+[.][\\w]+[.]?[\\w]+$"
       },
       {
         "name": "greet",
@@ -3829,6 +4464,29 @@
           "Calicut",
           "kozhikode",
           "calicut"
+        ]
+      },
+      {
+        "value": "Lucknow",
+        "synonyms": [
+          "Lucknw",
+          "lucknow",
+          "lucknw"
+        ]
+      },
+      {
+        "value": "Delhi",
+        "synonyms": [
+          "New Delhi",
+          "newdelhi",
+          "del",
+          "delhi",
+          "Dilli",
+          "new delhi",
+          "NewDelhi",
+          "Capital City Of India",
+          "National Capital",
+          "NCR"
         ]
       },
       {

@@ -3,9 +3,9 @@
     "action_listen": {
       "slots": [
         "location",
-        "cuisine",
         "price",
-        "emailid"
+        "emailid",
+        "cuisine"
       ]
     },
     "action_restaurant": {
@@ -13,15 +13,15 @@
         "location"
       ]
     },
+    "utter_goodbye": {
+      "slots": []
+    },
     "action_send_email": {
       "slots": [
         "emailid"
       ]
     },
     "utter_mailsend": {
-      "slots": []
-    },
-    "utter_goodbye": {
       "slots": []
     }
   },

@@ -4354,6 +4354,26 @@
           }
         ],
         "text": "Can you Send the list of Italian restaurants in newdelhi to abc.def@gm.co.in"
+      },
+      {
+        "intent": "deny",
+        "text": "Nope Thanks"
+      },
+      {
+        "intent": "deny",
+        "text": "nope thanks"
+      },
+      {
+        "intent": "deny",
+        "text": "Nope thanks"
+      },
+      {
+        "intent": "deny",
+        "text": "nope Thanks"
+      },
+      {
+        "intent": "deny",
+        "text": "Nope.Thanks"
       }
     ],
     "regex_features": [

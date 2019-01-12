@@ -332,3 +332,18 @@
     - slot{"emailid": "abc.def@gm.co.in"}
     - utter_mailsend
     - export
+
+## Generated Story -2006116203226788209
+* greet
+    - utter_greet
+* restaurant_search{"cuisine": "chinese", "location": "Pune", "price": "mid", "emailid": "sunil.yousef@gmail.com"}
+    - slot{"cuisine": "chinese"}
+    - slot{"emailid": "sunil.yousef@gmail.com"}
+    - slot{"location": "Pune"}
+    - slot{"price": "mid"}
+    - action_restaurant
+    - slot{"location": "Pune"}
+    - action_send_email
+    - slot{"emailid": "sunil.yousef@gmail.com"}
+    - utter_mailsend
+    - export

@@ -4860,6 +4860,31 @@
             "entity": "cuisine"
           }
         ]
+      },
+      {
+        "text": "Nope Thanks",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "nope thanks",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "Nope thanks",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "nope Thanks",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "Nope.Thanks",
+        "intent": "deny",
+        "entities": []
       }
     ]
   }
